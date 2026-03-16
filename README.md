@@ -59,7 +59,7 @@ Issues, standards applied (e.g., unfairness, deception, materiality), holdings, 
 * Types of artifacts regulators rely on
 * Evidence that security leaders should retain
 
-### 7. “Monday Morning” Translation
+### 7. Action checklist
 
 What a security lead should do in practice after reading the case.
 
@@ -69,33 +69,11 @@ What a security lead should do in practice after reading the case.
 
 Cases are organized by:
 
-* **Regime**
+* **Regime** (`taxonomy/regimes.md`) — Federal regulators (OCC, Federal Reserve, FTC, SEC, HHS OCR), federal laws and regulations (FTC Act § 5, CFAA, GLBA, HIPAA, HITECH, SEC disclosure, interagency guidance), state/sector (e.g. NYDFS 500), and executive orders affecting cybersecurity.
 
-  * FTC Section 5
-  * SEC cyber disclosure enforcement
-  * HIPAA / HITECH
-  * GLBA
-  * NYDFS 500
-  * CFAA
-  * State privacy enforcement
+* **Incident type** (`taxonomy/incident-types.md`) — What happened technically (e.g. cloud misconfiguration, SSRF, credential stuffing, third-party breach, ransomware, BEC, web app vulnerability, insider threat, payment card/skimming, logging/monitoring failures), each with a short explanation and a linked representative case.
 
-* **Incident Type**
-
-  * Ransomware
-  * Credential stuffing
-  * Cloud misconfiguration
-  * Third-party breach
-  * Business Email Compromise
-  * DDoS
-
-* **Legal Issue**
-
-  * Standing
-  * Unfairness
-  * Deception
-  * Reasonable security
-  * Materiality
-  * Class certification
+* **Legal issue** (`taxonomy/legal-issues.md`) — What mattered legally (reasonable security, governance & oversight, disclosure/materiality, unfairness/deception, causation & damages, standing, class certification, remedies/injunctive terms), each with a short explanation and a linked representative case.
 
 
 ## Differentiation
@@ -135,9 +113,31 @@ This site does **not** reproduce copyrighted legal commentary.
 
 ```
 docs/
+  index.md                 # Home
+  browse/
+    index.md               # Start here — case tables (live + incoming), taxonomy links
   cases/
+    major-breaches/
+      2019-capital-one/    # Capital One case + case-pack documents
+    ftc-section-5/
+      2022-drizly/         # Drizly FTC case
+    sec-disclosure/        # SEC disclosure placeholder
+    _template/             # Case template
   taxonomy/
-  playbooks/
+    regimes.md             # Federal regulators, laws, executive orders
+    incident-types.md      # Incident types + representative cases
+    legal-issues.md        # Legal issues + representative cases
+  studio/
+    index.md               # Writing Studio overview
+    workflows.md
+    document-types.md
+  document-types/          # Reference docs by category (executive-board, regulatory-compliance, etc.)
+  methodology.md
+  research/
+    2026-03-14-curated-starter-set.md
+  assets/
+    stylesheets/
+    javascripts/
 mkdocs.yml
 .github/workflows/deploy.yml
 ```
@@ -149,22 +149,6 @@ Built with:
 * GitHub Pages
 
 ---
-
-## Public vs Premium
-
-This repository contains the **public research layer**.
-
-The premium version of SecurityLawCase (separate private repository and gated site) expands on:
-
-* Detailed control mappings
-* Evidence artifact templates
-* Risk register examples
-* Board-ready summaries
-* Operational compliance toolkits
-
-The public site establishes authority and shared knowledge.
-The premium site provides structured implementation support.
-
 
 ## Status
 
