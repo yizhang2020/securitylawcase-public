@@ -1,0 +1,50 @@
+{
+  "id": "ftc-drizly-2022",
+  "title": "FTC v. Drizly, LLC (2022) — Credential Stuffing and Reasonable Security",
+  "year": 2022,
+  "jurisdiction": "US",
+  "forum": "Federal Trade Commission",
+  "regime": ["FTC Section 5 (Unfairness)"],
+  "incident_type": ["Credential stuffing", "Account takeover", "Excessive data retention"],
+  "legal_issues": ["Unfairness", "Reasonable security", "Data minimization"],
+  "industry": ["E-commerce"],
+  "entities": ["Drizly, LLC"],
+  "timeline": [
+    { "date": "2020-07", "event": "Data breach discovered (customer data exposed)" },
+    { "date": "2022-10-24", "event": "FTC complaint and proposed order announced" }
+  ],
+  "primary_sources": [
+    {
+      "label": "FTC press release",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2022/10/ftc-takes-action-against-drizly",
+      "type": "press_release"
+    },
+    {
+      "label": "FTC Complaint",
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2023185DrizlyComplaint.pdf",
+      "type": "complaint"
+    },
+    {
+      "label": "Decision and Order",
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2023185DrizlyOrder.pdf",
+      "type": "order"
+    }
+  ],
+  "controls_map": {
+    "nist_csf": ["PR.AC", "PR.IP", "DE.CM", "ID.RA"],
+    "cis_controls": ["5", "6", "8", "16"]
+  },
+  "evidence_artifacts": [
+    "MFA enforcement evidence for admin accounts",
+    "Credential stuffing detection + rate limiting configs",
+    "Secure password storage configuration",
+    "Data retention policy + deletion logs",
+    "Vendor security oversight documentation",
+    "Centralized authentication logs + alerting"
+  ],
+  "engineering_takeaways": [
+    "MFA is baseline for privileged accounts.",
+    "Credential stuffing detection must be automated and monitored.",
+    "Retaining unnecessary personal data increases liability surface."
+  ]
+}

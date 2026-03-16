@@ -1,0 +1,15 @@
+{#-
+  Override: show "Last updated Y/m/d HH:MM" on every page with consistent format and theme-matched styling.
+  Uses git_revision_date_localized from mkdocs-git-revision-date-localized-plugin when available.
+-#}
+{% if page.meta %}
+  {% if page.meta.git_revision_date_localized %}
+    {% set updated = page.meta.git_revision_date_localized %}
+  {% elif page.meta.revision_date %}
+    {% set updated = page.meta.revision_date %}
+  {% endif %}
+{% endif %}
+<footer class="page-last-updated" aria-label="Page last updated">
+  <span class="page-last-updated__label">Last updated:</span>
+  <span class="page-last-updated__date">{{ updated | default('—', true) }}</span>
+</footer>

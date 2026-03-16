@@ -1,0 +1,36 @@
+{
+  "id": "unique-id-slug",
+  "title": "Case Title",
+  "year": 2020,
+  "jurisdiction": "US",
+  "forum": "Court/Regulator",
+  "regime": ["FTC Section 5"],
+  "incident_type": ["Cloud misconfiguration"],
+  "legal_issues": ["Reasonable security"],
+  "industry": ["Financial Services"],
+  "entities": ["Company Name"],
+  "timeline": [
+    { "date": "YYYY-MM-DD", "event": "Key event" }
+  ],
+  "primary_sources": [
+    { "label": "Primary document name", "url": "https://...", "type": "order|complaint|opinion|press_release|settlement_site|docket" }
+  ],
+  "controls_map": {
+    "nist_csf": ["PR.AC", "PR.IP", "DE.CM", "RS.AN"],
+    "cis_controls": ["5", "6", "8", "12"]
+  },
+  "evidence_artifacts": [
+    "Example: IAM policy + enforcement evidence",
+    "Example: WAF configuration baselines + change logs",
+    "Example: Centralized logs + retention policy"
+  ],
+  "engineering_takeaways": [
+    "Short actionable takeaway 1",
+    "Short actionable takeaway 2"
+  ],
+  "notes": {
+    "uncertainty": [
+      "Call out any technical unknowns clearly"
+    ]
+  }
+}

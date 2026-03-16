@@ -1,0 +1,83 @@
+{
+  "id": "capital-one-2019-breach",
+  "title": "Capital One (2019) — Cloud Breach, Regulatory Enforcement, and Class Settlement",
+  "year": 2019,
+  "jurisdiction": "US",
+  "forum": "Bank regulators + civil class action + criminal prosecution",
+  "regime": ["Bank regulator enforcement (OCC/Federal Reserve)", "Civil class action", "CFAA (criminal)"],
+  "incident_type": ["Cloud misconfiguration", "SSRF / metadata service abuse (reported)", "Data exfiltration"],
+  "legal_issues": ["Information security program governance", "Reasonable security expectations", "Remedies/penalties", "Computer fraud and abuse (criminal)"],
+  "industry": ["Financial Services"],
+  "entities": ["Capital One Financial Corporation"],
+  "timeline": [
+    { "date": "2019-03-01", "event": "Breach period begins (regulator describes March 2019 incident period)" },
+    { "date": "2019-07-29", "event": "Public disclosure of the incident (widely reported; company incident page context)" },
+    { "date": "2020-08-06", "event": "OCC assesses $80M civil money penalty" },
+    { "date": "2020-08-06", "event": "Federal Reserve announces cease and desist order" },
+    { "date": "2022-09-13", "event": "Final approval of class action settlement (settlement administrator site)" },
+    { "date": "2023-09-28", "event": "Settlement payments begin issuing (settlement administrator site)" },
+    { "date": "2025-03-17", "event": "Ninth Circuit opinion in U.S. v. Thompson (PDF opinion)" }
+  ],
+  "primary_sources": [
+    {
+      "label": "OCC press release: $80M civil money penalty",
+      "url": "https://www.occ.gov/news-issuances/news-releases/2020/nr-occ-2020-101.html",
+      "type": "press_release"
+    },
+    {
+      "label": "OCC civil money penalty order (PDF)",
+      "url": "https://www.occ.gov/static/enforcement-actions/ea2020-036.pdf",
+      "type": "order"
+    },
+    {
+      "label": "Federal Reserve press release: enforcement action",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20200806a.htm",
+      "type": "press_release"
+    },
+    {
+      "label": "Federal Reserve cease and desist order (PDF)",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/files/enf20200806a1.pdf",
+      "type": "order"
+    },
+    {
+      "label": "Capital One class action settlement administrator site",
+      "url": "https://www.capitalonesettlement.com/",
+      "type": "settlement_site"
+    },
+    {
+      "label": "DOJ case page: United States v. Paige Thompson",
+      "url": "https://www.justice.gov/usao-wdwa/united-states-v-paige-thompson",
+      "type": "press_release"
+    },
+    {
+      "label": "Ninth Circuit opinion: U.S. v. Thompson (PDF)",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2025/03/17/22-30179.pdf",
+      "type": "opinion"
+    }
+  ],
+  "controls_map": {
+    "nist_csf": ["ID.GV", "ID.RA", "PR.AC", "PR.IP", "PR.PT", "DE.CM", "RS.AN", "RC.IM"],
+    "cis_controls": ["4", "5", "6", "8", "12", "13", "15", "17"]
+  },
+  "evidence_artifacts": [
+    "Cloud security architecture + threat model for internet-facing apps",
+    "WAF configuration baselines + change management records",
+    "IAM policies/roles for cloud resources + least-privilege evidence",
+    "Metadata service protection controls evidence (where applicable) + test results",
+    "Centralized logging (auth, WAF, cloud audit) + retention policy + sample queries",
+    "Vulnerability management evidence (tickets, SLA, remediation metrics)",
+    "Risk assessments and documented risk acceptances (with approvers)",
+    "Internal audit / second-line reviews and follow-up remediation tracking",
+    "Incident response runbooks + tabletop records + post-incident lessons learned"
+  ],
+  "engineering_takeaways": [
+    "Treat cloud control-plane + WAF configuration as code: baseline, review, CI checks, drift detection.",
+    "Harden against SSRF-style paths to credential sources/metadata and enforce least privilege for cloud roles.",
+    "Prove governance: maintain auditable risk decisions, follow-up remediation, and independent testing evidence."
+  ],
+  "notes": {
+    "uncertainty": [
+      "Some technical root-cause details differ between public reporting and formal orders; case page labels technical assertions by source type."
+    ]
+  }
+}

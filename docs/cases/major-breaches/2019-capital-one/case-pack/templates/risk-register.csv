@@ -1,0 +1,5 @@
+risk_id,description,impact,likelihood,owner,mitigation,status,evidence
+CLD-BOUNDARY-01,Boundary policy drift from approved WAF/routing baseline,High,Medium,Cloud Security Lead,Config-as-code + PR review + drift detection,Planned,"PR approvals; baseline config; drift reports; change tickets"
+CLD-IAM-01,Over-permissioned IAM roles for sensitive storage,High,Medium,IAM Lead,Role scoping + explicit deny + quarterly access reviews,Planned,"Policy JSON snapshots; access review attestations; audit logs"
+LOG-EVID-01,Insufficient log coverage/retention for evidence readiness,High,Medium,SOC Manager,Centralize logs + enforce retention + standard queries/runbooks,Planned,"Retention policy; log configs; sample queries; incident tickets"
+GOV-AUD-01,Independent testing findings not tracked to closure,High,Low,GRC Lead,Audit cadence + remediation tracking + executive reporting,Planned,"Audit reports; remediation tickets; closure evidence"

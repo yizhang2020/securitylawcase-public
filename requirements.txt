@@ -1,0 +1,4 @@
+zensical
+pymdown-extensions==10.*
+mkdocs-material==9.7.*
+mkdocs-git-revision-date-localized-plugin>=1.2.0

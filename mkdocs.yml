@@ -1,0 +1,95 @@
+site_name: SecurityLawCase
+site_url: https://securitylawcase.com
+
+extra:
+  site_tagline: "For security professionals — speak to the board, counsel, and regulator."
+repo_url: https://github.com/<your-username>/securitylawcase-public
+repo_name: securitylawcase-public
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  custom_dir: overrides
+
+  # Logo / branding (paths relative to docs_dir per Zensical; file must be under docs/)
+  logo: images/lawcaselogo.png
+  favicon: images/favicon.png
+
+  # Fonts
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  features:
+    # Horizontal top navigation
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+    # Keep secondary navigation usable but not "docs-y"
+    - navigation.sections
+    - navigation.expand
+
+    # UX
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+  palette:
+    # Default: Dark (Deep Purple)
+    - scheme: default
+      primary: deep-purple
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+    # Light: Blue
+    - scheme: slate
+      primary: blue
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/extra.js
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: custom
+      custom_format: "%Y/%m/%d %H:%M"
+      timezone: America/New_York
+      locale: en
+      fallback_to_build_date: true
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+
+nav:
+  # Keep top bar minimal (platform feel)
+  - Home: index.md
+
+  - Browse:
+      - Start here: browse/index.md
+      - Regimes: taxonomy/regimes.md
+      - Incident types: taxonomy/incident-types.md
+      - Legal issues: taxonomy/legal-issues.md
+
+  - Writing Studio:
+      - Overview: studio/index.md
+      - Workflows: studio/workflows.md
+      - Document types: studio/document-types.md
+
+  - Methodology: methodology.md

@@ -1,0 +1,18 @@
+# Excluded folders and files
+.DS_Store
+design/
+.cache/
+__pycache__/
+docs/research/
+.venv-caselaw-pub/
+
+# Build output (do not check in)
+site/
+
+# -----------------------------------------------------------------------------
+# Images: MkDocs/Zensical use docs/images/ for logo and favicon (see mkdocs.yml:
+#   theme.logo: images/lawcaselogo.png, theme.favicon: images/favicon.png).
+# Keep docs/images/ tracked. docs/assets/images/ is separate (theme/assets);
+# ignore it only if you do not use it.
+# -----------------------------------------------------------------------------
+
