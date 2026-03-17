@@ -9,7 +9,9 @@
     {% set updated = page.meta.revision_date %}
   {% endif %}
 {% endif %}
-<footer class="page-last-updated" aria-label="Page last updated">
+<footer class="page-last-updated" aria-label="Page footer note">
+  <div class="page-last-updated__sep" aria-hidden="true"></div>
+  <span class="page-last-updated__copyright">{{ config.copyright | default('© SecurityLawCase. All rights reserved.', true) }}</span><br>
   <span class="page-last-updated__label">Last updated:</span>
   <span class="page-last-updated__date">{{ updated | default('—', true) }}</span>
 </footer>

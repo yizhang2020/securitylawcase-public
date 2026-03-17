@@ -1,11 +1,21 @@
 /* =========================================
-   Brand: Security (dark green) + LawCase (dark blue)
+   Brand: Security (green) + LawCase (blue)
    ========================================= */
 .brand-security {
   color: #1b5e20;
 }
 .brand-lawcase {
   color: #0d47a1;
+}
+/* Header: light brand colors on dark primary background (default scheme) */
+[data-md-color-scheme="default"] .md-header .brand-security {
+  color: #81c784;
+}
+[data-md-color-scheme="default"] .md-header .brand-lawcase {
+  color: #64b5f6;
+}
+[data-md-color-scheme="default"] .md-header .md-header__tagline {
+  color: rgba(255, 255, 255, 0.85);
 }
 [data-md-color-scheme="slate"] .brand-security {
   color: #66bb6a;
@@ -77,10 +87,22 @@
 /* Page last updated (footer on every page) */
 .page-last-updated {
   margin-top: 2rem;
-  padding: 0.6rem 0.75rem;
-  font-size: 0.8125rem;
-  border-top: 1px solid var(--slc-border, rgba(0, 0, 0, 0.08));
+  padding: 0.85rem 0.75rem 0.65rem;
+  font-size: 0.72rem;
   color: var(--md-default-fg-color--light, #666);
+  text-align: center;
+}
+.page-last-updated__sep {
+  width: min(420px, 70%);
+  height: 1px;
+  margin: 0 auto 0.65rem;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0),
+    rgba(94, 53, 177, 0.25),
+    rgba(0, 0, 0, 0)
+  );
 }
 .page-last-updated__label { font-weight: 500; margin-right: 0.35rem; }
 .page-last-updated__date { font-variant-numeric: tabular-nums; }
@@ -88,6 +110,14 @@
 [data-md-color-scheme="default"] .page-last-updated__label { color: #4527a0; }
 [data-md-color-scheme="slate"] .page-last-updated { color: rgba(255, 255, 255, 0.7); }
 [data-md-color-scheme="slate"] .page-last-updated__label { color: #42a5f5; }
+[data-md-color-scheme="slate"] .page-last-updated__sep {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0),
+    rgba(66, 165, 245, 0.35),
+    rgba(0, 0, 0, 0)
+  );
+}
 
 /* =========================================
    Global layout / typography
@@ -197,7 +227,7 @@ html {
   line-height: 1.65;
   text-align: justify;
   max-width: 42rem;
-  margin: 1.5rem 0;
+  margin: 1.5rem auto;
   padding: 1.5rem 1.75rem;
   border-radius: 8px;
   /* Light theme: warm paper, soft purple-gray border, gentle shadow */
