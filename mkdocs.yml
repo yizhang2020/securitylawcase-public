@@ -14,10 +14,6 @@ theme:
   name: material
   custom_dir: overrides
 
-  # Logo / branding (paths relative to docs_dir per Zensical; file must be under docs/)
-  logo: images/lawcaselogo.png
-  favicon: images/favicon.png
-
   # Fonts
   font:
     text: Inter

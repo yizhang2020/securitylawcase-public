@@ -2,7 +2,7 @@
 
 ## Hallucinated writing examples
 
-**Scenario.** In September 2020, one month after the OCC issued its consent order **(time)**, the CISO **(role)** provides a board memo template **(type)** to a board director (Audit Committee) **(audience)** for recurring board reporting on cloud security governance and evidence readiness.
+Scenario. In September 2020, one month after the OCC issued its consent order (time), the CISO (role) provides a board memo template (type) to a board director (Audit Committee) (audience) for recurring board reporting on cloud security governance and evidence readiness.
 
 <div class="writing-example-formal">
 

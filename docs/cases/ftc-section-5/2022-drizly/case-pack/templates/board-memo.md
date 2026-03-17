@@ -2,7 +2,7 @@
 
 ## Hallucinated writing examples
 
-**Scenario.** In November 2022, following the FTC’s consent order **(time)**, the CISO **(role)** provides a board memo template **(type)** to a board director (Audit Committee) **(audience)** for use in future board reporting on program status and consent order compliance.
+Scenario. In November 2022, following the FTC’s consent order (time), the CISO (role) provides a board memo template (type) to a board director (Audit Committee) (audience) for use in future board reporting on program status and consent order compliance.
 
 <div class="writing-example-formal">
 

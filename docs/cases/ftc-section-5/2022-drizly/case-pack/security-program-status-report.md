@@ -29,28 +29,28 @@ A status report that tracks progress against the FTC consent order and the infor
 
 <p>This report summarizes implementation status for the information security program and data minimization obligations required by the FTC Decision and Order (FTC Docket No. 2023185). The scenario is illustrative; the obligations reflected below derive from the Order.</p>
 
-<p><strong>1) Program governance (Order requirement).</strong><br>
-- <strong>Program coordinator:</strong> Designated; reporting line documented. <strong>Status:</strong> Complete.<br>
-- <strong>Written program:</strong> Draft finalized for executive approval. <strong>Status:</strong> In progress. <strong>Blocker:</strong> approval scheduling.</p>
+<p><strong>1) Program governance</strong> (order requirement)<br>
+Program coordinator: Designated; reporting line documented. Status: complete.<br>
+Written program: Draft finalized for executive approval. Status: in progress. Blocker: approval scheduling.</p>
 
-<p><strong>2) IAM and credential management.</strong><br>
-- <strong>MFA enforcement (source code and production credentials):</strong> <strong>Status:</strong> In progress. <strong>Metric:</strong> 92% enrolled; enforcement targeted for Jan 31.<br>
-- <strong>Access review / offboarding:</strong> <strong>Status:</strong> In progress. <strong>Metric:</strong> 100% privileged accounts reviewed; remediation of 3 stale accounts pending.</p>
+<p><strong>2) IAM and credential management</strong><br>
+MFA enforcement (source code and production credentials): Status: in progress. Metric: 92% enrolled; enforcement targeted for Jan 31.<br>
+Access review / offboarding: Status: in progress. Metric: 100% privileged accounts reviewed; remediation of 3 stale accounts pending.</p>
 
-<p><strong>3) Secrets management and secure development.</strong><br>
-- <strong>No credentials in repositories:</strong> <strong>Status:</strong> In progress. <strong>Metric:</strong> secret scanning enabled; 0 open critical findings; 2 medium findings under remediation.<br>
-- <strong>Change control for high-risk settings:</strong> <strong>Status:</strong> In progress.</p>
+<p><strong>3) Secrets management and secure development</strong><br>
+No credentials in repositories: Status: in progress. Metric: secret scanning enabled; 0 open critical findings; 2 medium findings under remediation.<br>
+Change control for high-risk settings: Status: in progress.</p>
 
-<p><strong>4) Monitoring and detection.</strong><br>
-- <strong>Logging coverage and retention:</strong> <strong>Status:</strong> In progress. <strong>Metric:</strong> 85% of critical systems onboarded; retention policy drafted.<br>
-- <strong>Exfiltration/anomalous access detection:</strong> <strong>Status:</strong> Planned (Feb rollout).</p>
+<p><strong>4) Monitoring and detection</strong><br>
+Logging coverage and retention: Status: in progress. Metric: 85% of critical systems onboarded; retention policy drafted.<br>
+Exfiltration/anomalous access detection: Status: planned (February rollout).</p>
 
-<p><strong>5) Data minimization and retention.</strong><br>
-- <strong>Retention schedule:</strong> Draft published internally; external publication queued. <strong>Status:</strong> In progress.<br>
-- <strong>Deletion/de-identification process:</strong> <strong>Status:</strong> In progress. <strong>Metric:</strong> first deletion run scheduled Jan 20.</p>
+<p><strong>5) Data minimization and retention</strong><br>
+Retention schedule: Draft published internally; external publication queued. Status: in progress.<br>
+Deletion/de-identification process: Status: in progress. Metric: first deletion run scheduled Jan 20.</p>
 
-<p><strong>6) Independent assessment (biennial).</strong><br>
-- <strong>Assessor selection and scope:</strong> <strong>Status:</strong> In progress. <strong>Next step:</strong> finalize SOW and timeline.</p>
+<p><strong>6) Independent assessment</strong> (biennial)<br>
+Assessor selection and scope: Status: in progress. Next step: finalize SOW and timeline.</p>
 
 <p><strong>Requests for action.</strong> Approve the written program and retention schedule publication; confirm budget for assessment and monitoring enhancements.</p>
 
