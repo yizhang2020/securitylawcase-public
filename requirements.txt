@@ -1,4 +1,9 @@
 zensical
-pymdown-extensions==10.*
+
+# Pin MkDocs to the 1.x line so that Material for MkDocs
+# and our theme overrides/plugins behave consistently in CI and locally.
+mkdocs>=1.5,<2.0
 mkdocs-material==9.7.*
+
+pymdown-extensions==10.*
 mkdocs-git-revision-date-localized-plugin>=1.2.0

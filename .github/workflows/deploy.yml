@@ -20,6 +20,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Ensure full git history so git-revision-date-localized-plugin
+          # can compute correct dates instead of falling back.
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
