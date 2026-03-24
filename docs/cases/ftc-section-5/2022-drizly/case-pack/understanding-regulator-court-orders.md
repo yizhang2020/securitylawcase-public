@@ -9,6 +9,12 @@
 
 ---
 
+## Purpose
+
+Provide a structured summary of the FTC complaint and decision and order for this case—official links, alleged practices, binding requirements, and a consolidated requirement view—for security, legal, and compliance alignment.
+
+---
+
 ## 1. FTC Complaint
 
 ### Official document
@@ -104,3 +110,9 @@ Federal Trade Commission, *Complaint*, In the Matter of Drizly, LLC, and James C
 **FTC Decision and Order**  
 Federal Trade Commission, *Decision and Order*, In the Matter of Drizly, LLC, and James Cory Rellas, FTC Docket No. 2023185 (Oct. 24, 2022).  
 [https://www.ftc.gov/system/files/ftc_gov/pdf/2023185-drizly-combined-consent.pdf](https://www.ftc.gov/system/files/ftc_gov/pdf/2023185-drizly-combined-consent.pdf)
+
+---
+
+**Document-type guide:** [Regulatory Security Explanation](../../../../document-types/regulatory-compliance/regulatory-security-explanation.md)
+
+**Writing tips:** [Writing best practices — Regulatory Security Explanation](../../../../studio/writing-best-practices.md#regulatory-security-explanation)

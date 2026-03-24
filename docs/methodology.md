@@ -1,11 +1,6 @@
 # Methodology
 
-SecurityLawCase focuses on **primary sources + technical translation**.
-
-The goal is to make cybersecurity case law usable for security practitioners by connecting:
-
-**Legal standards → security controls → evidence artifacts**
-
+SecurityLawCase focuses on **primary sources + technical translation**. The goal is to make cybersecurity case law usable for security practitioners by connecting: **Legal standards → security controls → evidence artifacts**
 
 
 ## What counts as a “case” here
@@ -18,7 +13,6 @@ A “case” may include:
 - official press releases only as context (never as the main authority)
 
 This site is not trying to be a complete legal database. It is a curated analysis library focused on decisions that shape **“reasonable security”** expectations.
-
 
 
 ## Source policy (primary-first)
@@ -41,7 +35,6 @@ Secondary sources (news, blogs, commentary) may be used only for:
 They are never treated as the definitive authority for legal holdings.
 
 
-
 ## How technical facts are handled
 
 Many legal records do **not** fully describe the technical root cause. When technical details are incomplete:
@@ -58,7 +51,6 @@ If the record lacks technical specificity, the site still provides:
 - control areas implicated (e.g., IAM, logging, secure SDLC)
 - evidence artifacts that matter in enforcement and litigation
 - “what a defensible program would show”
-
 
 
 ## Case page structure (standard template)
@@ -83,7 +75,6 @@ Each public case page uses a repeatable layout aligned with the [Writing Studio]
 10. **References (indexed)**
 
 
-
 ## Framework mapping approach
 
 SecurityLawCase maps legal expectations into a small number of widely used security frameworks.
@@ -94,7 +85,6 @@ SecurityLawCase maps legal expectations into a small number of widely used secur
 - **CIS Controls** (implementation-oriented)
 
 We start with high-level mappings and add detail over time as patterns stabilize.
-
 
 
 ## “Compliance → Controls → Evidence”
@@ -129,7 +119,6 @@ For each case, we ask:
 This "evidence layer" is what security leaders need to defend reasonableness and demonstrate program maturity.
 
 
-
 ## Quality bar / editorial principles
 
 - Cite primary sources first
@@ -138,7 +127,6 @@ This "evidence layer" is what security leaders need to defend reasonableness and
 - Avoid copying copyrighted summaries
 - Use consistent structure and terminology
 - Write for engineers, but keep it board/counsel readable
-
 
 
 ## Disclaimer

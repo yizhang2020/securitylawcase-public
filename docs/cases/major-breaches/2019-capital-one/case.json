@@ -5,7 +5,7 @@
   "jurisdiction": "US",
   "forum": "Bank regulators + civil class action + criminal prosecution",
   "regime": ["Bank regulator enforcement (OCC/Federal Reserve)", "Civil class action", "CFAA (criminal)"],
-  "incident_type": ["Cloud misconfiguration", "SSRF / metadata service abuse (reported)", "Data exfiltration"],
+  "technical_focus": ["Cloud misconfiguration", "SSRF / metadata service abuse (reported)", "Data exfiltration"],
   "legal_issues": ["Information security program governance", "Reasonable security expectations", "Remedies/penalties", "Computer fraud and abuse (criminal)"],
   "industry": ["Financial Services"],
   "entities": ["Capital One Financial Corporation"],

@@ -6,6 +6,8 @@ copyright: "© 2026 Yi Zhang. Licensed under the MIT License."
 
 extra:
   site_tagline: "For security professionals — speak to the board, counsel, and regulator."
+  # Home link for logo / brand (avoids empty href when nav.homepage is unset in some builds)
+  homepage: .
 repo_url: https://github.com/<your-username>/securitylawcase-public
 repo_name: securitylawcase-public
 edit_uri: edit/main/docs/
@@ -38,7 +40,7 @@ theme:
     # Default: Indigo header (good contrast with light brand text)
     - scheme: default
       primary: indigo
-      accent: cyan
+      accent: cyan 
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -61,8 +63,9 @@ plugins:
   - search
   - git-revision-date-localized:
       type: custom
-      custom_format: "%Y/%m/%d %H:%M"
-      timezone: America/New_York
+      # e.g. 2026 March 20 8:00 AM (Los Angeles)
+      custom_format: "%Y %B %-d %-I:%M %p"
+      timezone: America/Los_Angeles
       locale: en
       fallback_to_build_date: true
 
@@ -81,14 +84,14 @@ nav:
   - Home: index.md
 
   - Browse:
-      - Start here: browse/index.md
+      - All Cases: browse/index.md
       - Regimes: taxonomy/regimes.md
-      - Incident types: taxonomy/incident-types.md
-      - Legal issues: taxonomy/legal-issues.md
+      - Legal Issues: taxonomy/legal-issues.md
 
   - Writing Studio:
       - Overview: studio/index.md
       - Workflows: studio/workflows.md
-      - Document types: studio/document-types.md
+      - Document Types: studio/document-types.md
+      - Writing Best Practices: studio/writing-best-practices.md
 
   - Methodology: methodology.md

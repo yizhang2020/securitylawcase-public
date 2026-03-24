@@ -5,7 +5,7 @@
   "jurisdiction": "US",
   "forum": "Federal Trade Commission",
   "regime": ["FTC Section 5 (Unfairness)"],
-  "incident_type": ["Credential stuffing", "Account takeover", "Excessive data retention"],
+  "technical_focus": ["Credential stuffing", "Account takeover", "Excessive data retention"],
   "legal_issues": ["Unfairness", "Reasonable security", "Data minimization"],
   "industry": ["E-commerce"],
   "entities": ["Drizly, LLC"],

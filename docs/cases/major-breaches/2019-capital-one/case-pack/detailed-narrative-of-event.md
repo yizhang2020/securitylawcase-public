@@ -208,21 +208,3 @@ In subsequent years, the incident resulted in:
 
 Meanwhile, the attacker was prosecuted in federal court and convicted of computer fraud offenses.
 
----
-
-## References
-
-1. Capital One Financial Corporation. *Capital One Announces Data Security Incident*, July 29, 2019.
-   [https://www.capitalone.com/about/newsroom/capital-one-data-security-incident/](https://www.capitalone.com/about/newsroom/capital-one-data-security-incident/)
-
-2. U.S. Department of Justice. *Seattle Woman Charged with Computer Fraud in Capital One Data Breach*.
-   [https://www.justice.gov/usao-wdwa/pr/seattle-woman-charged-computer-fraud-capital-one-data-breach](https://www.justice.gov/usao-wdwa/pr/seattle-woman-charged-computer-fraud-capital-one-data-breach)
-
-3. Office of the Comptroller of the Currency. *Consent Order and Civil Money Penalty against Capital One*, 2020.
-   [https://www.occ.gov/news-issuances/news-releases/2020/nr-occ-2020-101.html](https://www.occ.gov/news-issuances/news-releases/2020/nr-occ-2020-101.html)
-
-4. U.S. District Court for the Eastern District of Virginia. *In re Capital One Consumer Data Security Breach Litigation – Settlement*.
-   [https://www.capitalonesettlement.com](https://www.capitalonesettlement.com)
-
-5. Federal Bureau of Investigation / U.S. Department of Justice. *United States v. Paige A. Thompson*.
-   [https://www.justice.gov/usao-wdwa/united-states-v-paige-thompson](https://www.justice.gov/usao-wdwa/united-states-v-paige-thompson)

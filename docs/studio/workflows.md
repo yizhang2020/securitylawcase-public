@@ -4,7 +4,6 @@
 
 Workflows define how governance documents are produced: what triggers them, who is involved, and what steps and artifacts are required. This page describes the high-level workflow model used by the Writing Studio.
 
----
 
 ## Workflow model
 
@@ -15,7 +14,6 @@ Workflows define how governance documents are produced: what triggers them, who 
 5. **Review and approval** — Legal, compliance, or leadership review as appropriate.  
 6. **Output** — Final version; optionally export (e.g., Markdown, DOCX, PDF in premium).
 
----
 
 ## Common triggers
 
@@ -28,7 +26,6 @@ Workflows define how governance documents are produced: what triggers them, who 
 | **Policy or governance change** | Security policy draft, security governance memo, internal security directive |
 | **Transparency or disclosure** | Security transparency report section, customer security explanation |
 
----
 
 ## Roles (typical)
 
@@ -39,7 +36,6 @@ Workflows define how governance documents are produced: what triggers them, who 
 
 Roles can be combined depending on organization size and context.
 
----
 
 ## Quality checks
 
@@ -50,7 +46,6 @@ Before finalizing, documents should align with:
 - **Consistency** — Terminology and structure match the document type and any organizational standards.  
 - **Audience** — Tone and depth appropriate for board, regulator, counsel, or public.
 
----
 
 ## Relation to cases
 

@@ -1,0 +1,10 @@
+{#-
+  Header logo slot only (sidebar uses text brand in overrides/partials/nav.html).
+  When theme.logo is set, use a bounded <img> so high-resolution assets cannot
+  blow up the layout if theme CSS fails to load.
+-#}
+{% if config.theme.logo %}
+  <img src="{{ config.theme.logo | url }}" alt="{{ config.site_name | e }}" draggable="false" width="28" height="28" loading="lazy">
+{% else %}
+  {% include ".icons/material/book-open.svg" %}
+{% endif %}

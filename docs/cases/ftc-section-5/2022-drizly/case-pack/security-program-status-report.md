@@ -14,17 +14,17 @@ A status report that tracks progress against the FTC consent order and the infor
 
 ## Hallucinated writing examples
 
-**Scenario.** In January 2023, during initial implementation of the FTC consent order **(time)**, a Lead Security Engineer **(role)** submits a security program status report **(type)** to the CISO **(audience)**. The report provides measurable progress against program and data-retention requirements and identifies blockers requiring executive action.
+**Scenario:** In January 2023, during initial implementation of the FTC consent order **(time)**, a Lead Security Engineer **(role)** submits a security program status report **(type)** to the CISO **(audience)**. The report provides measurable progress against program and data-retention requirements and identifies blockers requiring executive action.
 
 <div class="writing-example-formal">
 
 <p><strong>SECURITY PROGRAM STATUS REPORT</strong></p>
 
 <div class="doc-meta">
-<p><strong>To:</strong> Chief Information Security Officer<br>
-<strong>From:</strong> Lead Security Engineer<br>
-<strong>Date:</strong> January 10, 2023<br>
-<strong>Re:</strong> Status Report — Information Security Program and FTC Consent Order Readiness</p>
+<p><strong>To: </strong>Chief Information Security Officer<br>
+<strong>From: </strong>Lead Security Engineer<br>
+<strong>Date: </strong>January 10, 2023<br>
+<strong>Re: </strong>Status Report — Information Security Program and FTC Consent Order Readiness</p>
 </div>
 
 <p>This report summarizes implementation status for the information security program and data minimization obligations required by the FTC Decision and Order (FTC Docket No. 2023185). The scenario is illustrative; the obligations reflected below derive from the Order.</p>
@@ -52,10 +52,10 @@ Deletion/de-identification process: Status: in progress. Metric: first deletion 
 <p><strong>6) Independent assessment</strong> (biennial)<br>
 Assessor selection and scope: Status: in progress. Next step: finalize SOW and timeline.</p>
 
-<p><strong>Requests for action.</strong> Approve the written program and retention schedule publication; confirm budget for assessment and monitoring enhancements.</p>
+<p><strong>Requests For Action: </strong>Approve the written program and retention schedule publication; confirm budget for assessment and monitoring enhancements.</p>
 
 </div>
 
-## Primary sources
+**Document-type guide:** [Security Program Status Report](../../../../document-types/executive-board/security-program-status-report.md)
 
-- **FTC Decision and Order:** [Decision and Order — Drizly, LLC, and James Cory Rellas](https://www.ftc.gov/system/files/ftc_gov/pdf/2023185-drizly-combined-consent.pdf), FTC Docket No. 2023185 (Oct. 24, 2022).
+**Writing tips:** [Writing best practices — Security Program Status Report](../../../../studio/writing-best-practices.md#security-program-status-report)

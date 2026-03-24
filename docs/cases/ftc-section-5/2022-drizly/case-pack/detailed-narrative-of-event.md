@@ -51,10 +51,3 @@ The attacker exfiltrated Drizly’s **User Table**, comprising more than **2.5 m
 
 The Federal Trade Commission investigated and on **October 24, 2022** filed an administrative complaint against Drizly, LLC, and James Cory Rellas (CEO), alleging unfair and deceptive acts or practices in violation of Section 5 of the FTC Act. The same day, the Commission accepted a **Decision and Order** (consent order) that required: (1) a comprehensive information security program; (2) data minimization and a public data retention schedule; (3) biennial independent third-party assessments; (4) reporting and recordkeeping; and (5) for the CEO individually, binding obligations if he moves to another company that collects consumer data from more than 25,000 individuals. No monetary penalty was imposed.
 
----
-
-## References
-
-- **FTC Complaint** — [In the Matter of Drizly, LLC, and James Cory Rellas](https://www.ftc.gov/system/files/ftc_gov/pdf/202-3185-Drizly-Complaint.pdf), FTC Docket No. 2023185 (Oct. 24, 2022).
-- **FTC Decision and Order** — [In the Matter of Drizly, LLC, and James Cory Rellas](https://www.ftc.gov/system/files/ftc_gov/pdf/2023185-drizly-combined-consent.pdf), FTC Docket No. 2023185 (Oct. 24, 2022).
-- **FTC Press Release** — [FTC Takes Action Against Drizly and Its CEO for Security Failures](https://www.ftc.gov/news-events/news/press-releases/2022/10/ftc-takes-action-against-drizly-its-ceo-james-cory-rellas-security-failures-exposed-data-25-million) (Oct. 24, 2022).

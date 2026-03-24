@@ -4,91 +4,60 @@
 
 ---
 
+## Purpose
+
+Support board and audit-committee oversight of the July 2019 cloud breach, OCC consent order ($80M CMP), class settlement, and remediation: incident facts, root causes, regulatory outcomes, and explicit approvals or funding requests. The goal is a defensible narrative consistent with SEC-style governance disclosure and bank supervision expectations.
+
+---
+
 ## Hallucinated writing examples
 
-**Scenario.** One month after the Office of the Comptroller of the Currency (OCC) issued its Consent Order and $80 million civil money penalty (August 6, 2020) **(time)**, the Chief Information Security Officer **(role)** is required to deliver a board security brief **(type)** to the Board Audit Committee **(audience)**. The brief must summarize the July 2019 cybersecurity incident, root causes, regulatory and legal outcomes, and progress against consent order commitments. The audience is the same board that will report to shareholders and the OCC.
+**Scenario:** One month after the Office of the Comptroller of the Currency (OCC) issued its Consent Order and $80 million civil money penalty (August 6, 2020) **(time)**, the Chief Information Security Officer **(role)** is required to deliver a board security brief **(type)** to the Board Audit Committee **(audience)**. The brief must summarize the July 2019 cybersecurity incident, root causes, regulatory and legal outcomes, and progress against consent order commitments. The audience is the same board that will report to shareholders and the OCC.
 
 <div class="writing-example-formal">
 
 <p><strong>MEMORANDUM</strong></p>
 
 <div class="doc-meta">
-<p><strong>To:</strong> Board Audit Committee<br>
-<strong>From:</strong> Chief Information Security Officer<br>
-<strong>Date:</strong> September 10, 2020<br>
-<strong>Subject:</strong> Board Security Brief — July 2019 Cybersecurity Incident; OCC Consent Order and Remediation Status</p>
+<p><strong>To: </strong>Board Audit Committee<br>
+<strong>From: </strong>Chief Information Security Officer<br>
+<strong>Date: </strong>September 10, 2020<br>
+<strong>Subject: </strong>Board Security Brief — July 2019 Cybersecurity Incident; OCC Consent Order and Remediation Status</p>
 </div>
 
-<p>This brief summarizes the cybersecurity incident publicly disclosed on July 29, 2019, its root causes, the resulting regulatory and legal actions, and the Company’s remediation and compliance status in light of the Consent Order issued by the Office of the Comptroller of the Currency on August 6, 2020 (the “Consent Order”). References: OCC News Release NR 2020-98 (Aug. 6, 2020); <em>United States v. Paige A. Thompson</em>, U.S. District Court, W.D. Wash.; <em>In re Capital One Consumer Data Security Breach Litigation</em>, E.D. Va.</p>
+<p>This memorandum provides a summary of the cybersecurity incident publicly disclosed on July 29, 2019, including its root causes, regulatory and legal outcomes, and the Company’s remediation and compliance status in response to the Consent Order issued by the Office of the Comptroller of the Currency (“OCC”) on August 6, 2020 (the “Consent Order”).</p>
 
-<p><strong>Incident summary.</strong> Between March and July 2019, an external actor exploited a misconfiguration in a web application firewall (WAF) that secured our AWS-hosted infrastructure. The actor obtained credentials and accessed customer data stored in our cloud environment. On July 17, 2019, we were notified by a security researcher who had discovered references to the data online. We confirmed unauthorized access on July 19, 2019, secured the vulnerability, preserved forensic evidence, and notified federal law enforcement. On July 29, 2019, the Federal Bureau of Investigation arrested Paige Thompson in Seattle in connection with the breach. That same day, the Company publicly disclosed the incident, affecting approximately 106 million individuals in the United States and Canada.</p>
+<p><strong>Incident Summary: </strong>Between March and July 2019, an external actor exploited a misconfiguration in a web application firewall (WAF) protecting the Company’s AWS-hosted infrastructure. The actor obtained credentials and accessed customer data stored in the Company’s cloud environment.
+<br>
+The Company was notified by a security researcher on July 17, 2019, and confirmed unauthorized access on July 19, 2019. It secured the vulnerability, preserved forensic evidence, and notified federal law enforcement. An individual was arrested by the Federal Bureau of Investigation on July 29, 2019. The Company publicly disclosed the incident the same day, reporting that approximately 106 million individuals in the United States and Canada were affected.</p>
 
-<p><strong>Regulatory and legal outcomes.</strong> The OCC investigated our cybersecurity and cloud governance practices and, on August 6, 2020, issued a Consent Order and imposed an $80 million civil money penalty. The Consent Order requires the Bank to strengthen risk management, board and management reporting, cloud security controls, and third-party risk management, and to report progress to the OCC. Consumer class-action litigation was resolved by a settlement approved by the U.S. District Court for the Eastern District of Virginia in 2022 in the amount of $190 million, including consumer benefits and claims process.</p>
+<p><strong>Regulatory and Legal Outcomes: </strong>The OCC investigated our cybersecurity and cloud governance practices and, on August 6, 2020, issued a Consent Order and imposed an $80 million civil money penalty. The Consent Order requires the Bank to strengthen risk management, board and management reporting, cloud security controls, and third-party risk management, and to report progress to the OCC. 
+<br>
+In addition, consumer class-action litigation was resolved by a settlement approved by the U.S. District Court for the Eastern District of Virginia in 2022 in the amount of $190 million, including consumer benefits and claims process.</p>
 
-<p><strong>Root causes and control gaps.</strong> The OCC’s findings and our internal review identified the following: (1) cloud perimeter and WAF configuration was not fully managed as code with mandatory peer review, allowing a misconfiguration to persist; (2) identity and access management (IAM) roles were over-permissioned, enabling lateral movement once initial access was obtained; (3) logging and retention were insufficient for timely detection and forensic readiness; (4) risk governance and board reporting did not meet the heightened standards expected by the OCC. These areas are the focus of our remediation plan.</p>
+<p><strong>Control Failures and Root Causes: </strong>The OCC’s findings and our internal review identified the following control deficiencies:</p>
 
-<p><strong>Remediation and consent order compliance.</strong> We have implemented or are implementing config-as-code and drift detection for perimeter controls, a least-privilege IAM review and reduction of over-permissioned roles, centralized logging with defined retention, and independent control testing. Consent order milestones are tracked and reported to the OCC on the required cadence. We request the Committee’s approval of baseline control standards for cloud boundaries and IAM, approval of funding for logging and drift detection, and a requirement that risk acceptances include revisit dates and mitigation tracking.</p>
+<ol>
+  <li>Cloud perimeter and WAF configurations were not consistently managed as code with mandatory peer review, allowing misconfigurations to persist;</li>
+  <li>Identity and access management (IAM) roles were over-permissioned, which enabled lateral movement following initial access;</li>
+  <li>Logging and retention controls were insufficient to support timely detection and forensic readiness;</li>
+  <li>Risk governance and board reporting did not meet the heightened supervisory expectations of the OCC.</li>
+</ol>
 
+<p>These areas are the focus of our remediation plan.</p>
+
+<p><strong>Remediation and Consent Order Compliance: </strong>The Company has implemented, or is implementing, remediation measures to address these control gaps. Key actions include establishing configuration-as-code controls with drift detection for cloud boundaries, and conducting a comprehensive least-privilege review of identity and access management (IAM) roles. The Company is also implementing centralized logging with defined retention standards and introducing independent testing and validation of key controls. Progress against Consent Order requirements is tracked and reported to the OCC in accordance with the prescribed cadence.</p>
+
+<p><strong>Approval and Endorsement Requests: </strong>In connection with these efforts, management requests the Committee’s approval of baseline control standards for cloud boundary security and identity and access management, approval of funding for logging infrastructure and drift detection capabilities, and endorsement of a governance requirement that all risk acceptances include defined review dates and formal mitigation tracking.</p>
+
+<p>
+Please let me know if additional information or further detail would be helpful.
+</p>
+
+<p>Respectfully submitted,</p>
+Chief Information Security Officer
 </div>
 
----
+**Document-type guide:** [Board Security Brief](../../../../document-types/executive-board/board-security-brief.md)
 
-## Official document (board-level security disclosure)
-
-**SEC 10-K Item 1C — Cybersecurity** disclosures are the closest public analogue to a board security brief: they describe risk management, governance, and material risks for investors and are reviewed by the board.
-
-- **Capital One 10-K (post-breach):** [Capital One Financial Corporation 10-K (2020)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000927628&type=10-K&dateb=&owner=include&count=40) — open the latest 10-K and search for "Item 1C" or "Cybersecurity."
-- **SEC guidance:** [SEC Disclosure Guidance on Cybersecurity](https://www.sec.gov/divisions/corpfin/guidance/cfguidance-topic2.htm) — how the SEC expects material cyber risks and incidents to be disclosed.
-
-*Many companies do not publish standalone “board security briefs”; 10-K and proxy disclosures are the main public source of board-level security narrative.*
-
----
-
-## Writing analysis
-
-**How board-level security disclosure is typically structured (e.g. 10-K Item 1C)**
-
-- **Risk management and strategy** — How the company identifies, assesses, and manages material cyber risks; use of frameworks (e.g. NIST); third-party and incident response programs.
-- **Governance** — Board oversight (e.g. audit committee); who in management is responsible (CISO/CIO); frequency of reporting.
-- **Material incidents** — If applicable, description of significant incidents, impact, and remediation.
-- **Program elements** — Defense in depth, monitoring, identity/access, business continuity, third-party reviews, testing.
-
-**What to emulate**
-
-- One-page (or one-screen) summary for the board: incident + why it matters + key gaps + what we’re doing + how we’ll measure + decisions requested.
-- Talk track so the presenter can stay consistent and on message.
-- Explicit “decisions requested” so the board knows what is being asked.
-
-**What to improve**
-
-- Avoid jargon in the one-slide summary; use plain-language risk and metrics.
-- Tie every “what we’re doing” to a measurable outcome or artifact (e.g. “PR-reviewed changes %” not just “config-as-code”).
-
----
-
-## Sample rewrite
-
-*Below is a board-pack style brief for the Capital One 2019 case: one-slide summary, talk track, and decisions requested. Use it as a template for your own briefings.*
-
----
-
-## One-slide summary
-- **Incident:** Major cloud-era breach with downstream regulatory enforcement and civil settlement impact.
-- **Why it matters:** High scrutiny on *program effectiveness*, cloud configuration governance, and evidence readiness.
-- **Key gaps to prevent:** boundary drift, over-permissioned IAM, insufficient logging/retention, weak risk governance.
-- **What we’re doing:** config-as-code + drift detection + least privilege + centralized logging + independent testing.
-- **How we’ll measure:** PR-reviewed changes %, drift MTTR, IAM wildcard count, log coverage %, audit finding closure time.
-
-## Talk track (3 minutes)
-1. This case shows outcomes depend on governance + proof, not only exploit mechanics.
-2. Our focus is preventing boundary drift and proving control effectiveness continuously.
-3. We will report quarterly metrics tied to evidence readiness and independent testing.
-
-## Decisions requested
-- Approve baseline control standards for cloud boundaries + IAM
-- Fund logging/retention and drift detection improvements
-- Require risk acceptance to include revisit dates and mitigation tracking
-
----
-
-*End of sample rewrite. Adapt to your own context and get appropriate legal and leadership review before use.*
+**Writing tips:** [Writing best practices — Board Security Brief](../../../../studio/writing-best-practices.md#board-security-brief)

@@ -12,32 +12,31 @@ A template for customer notification after a data breach: what happened, what pe
 
 ## Hallucinated writing examples
 
-**Scenario.** In July 2020, shortly after the Company confirmed unauthorized access **(time)**, the Security Director **(role)** drafts a customer security explanation **(type)** for the CISO **(audience)** to approve prior to distribution to affected consumers.
+**Scenario:** In July 2020, shortly after the Company confirmed unauthorized access **(time)**, the Security Director **(role)** drafts a customer security explanation **(type)** for the CISO **(audience)** to approve prior to distribution to affected consumers.
 
 <div class="writing-example-formal">
 
 <p><strong>DRAFT CUSTOMER NOTICE — SECURITY INCIDENT</strong></p>
 
 <div class="doc-meta">
-<p><strong>To:</strong> Chief Information Security Officer<br>
-<strong>From:</strong> Security Director<br>
-<strong>Date:</strong> July 20, 2020<br>
-<strong>Re:</strong> Draft Customer Communication — Security Incident and Recommended Actions</p>
+<p><strong>To: </strong>Chief Information Security Officer<br>
+<strong>From: </strong>Security Director<br>
+<strong>Date: </strong>July 20, 2020<br>
+<strong>Re: </strong>Draft Customer Communication — Security Incident and Recommended Actions</p>
 </div>
 
 <p>We are writing to provide notice of a security incident involving unauthorized access to certain Company systems and potential access to consumer information. The investigation remains ongoing; this draft is intended for factual communication and does not state legal conclusions.</p>
 
-<p><strong>What happened.</strong> We identified unauthorized access to certain systems and are investigating the scope and timing. We initiated containment and engaged external cybersecurity specialists.</p>
+<p><strong>What Happened: </strong>We identified unauthorized access to certain systems and are investigating the scope and timing. We initiated containment and engaged external cybersecurity specialists.</p>
 
-<p><strong>What information may be involved.</strong> Depending on the account, information may include contact information and account details. We will provide supplemental details as the investigation confirms specific data elements.</p>
+<p><strong>What Information May Be Involved: </strong>Depending on the account, information may include contact information and account details. We will provide supplemental details as the investigation confirms specific data elements.</p>
 
-<p><strong>What we are doing.</strong> We have secured affected systems, are strengthening authentication and credential handling, and are increasing monitoring for anomalous activity. We are also reviewing data retention and minimization practices to reduce future exposure.</p>
+<p><strong>What We Are Doing: </strong>We have secured affected systems, are strengthening authentication and credential handling, and are increasing monitoring for anomalous activity. We are also reviewing data retention and minimization practices to reduce future exposure.</p>
 
-<p><strong>What you can do.</strong> We recommend that you use unique, strong passwords for online accounts, remain vigilant for phishing or suspicious communications, and monitor your accounts for unauthorized activity. If you have questions, please contact our support team at [support contact].</p>
+<p><strong>What You Can Do: </strong>We recommend that you use unique, strong passwords for online accounts, remain vigilant for phishing or suspicious communications, and monitor your accounts for unauthorized activity. If you have questions, please contact our support team at [support contact].</p>
 
 </div>
 
-## Primary sources
+**Document-type guide:** [Customer Security Explanation](../../../../document-types/public-communication/customer-security-explanation.md)
 
-- **FTC Complaint:** [In the Matter of Drizly, LLC, and James Cory Rellas](https://www.ftc.gov/system/files/ftc_gov/pdf/202-3185-Drizly-Complaint.pdf), FTC Docket No. 2023185 (Oct. 24, 2022).
-- **FTC Decision and Order:** [Decision and Order](https://www.ftc.gov/system/files/ftc_gov/pdf/2023185-drizly-combined-consent.pdf), FTC Docket No. 2023185 (Oct. 24, 2022).
+**Writing tips:** [Writing best practices — Customer Security Explanation](../../../../studio/writing-best-practices.md#customer-security-explanation)

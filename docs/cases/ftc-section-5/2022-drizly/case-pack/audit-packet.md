@@ -2,6 +2,18 @@
 
 If examined (FTC, auditor, litigation), produce the following within **48 hours** where applicable.
 
+---
+
+## Purpose
+
+Support rapid assembly of evidence aligned with the FTC consent order—program documents, access and credential controls, monitoring, retention, training, and order compliance tracking—for examiner or counsel review.
+
+**Document-type guide:** [Compliance Justification Document](../../../../document-types/regulatory-compliance/compliance-justification-document.md)
+
+**Writing tips:** [Writing best practices — Compliance Justification Document](../../../../studio/writing-best-practices.md#compliance-justification-document)
+
+---
+
 ## A) Information security program
 - Written information security program document
 - Designation of program coordinator and reporting structure

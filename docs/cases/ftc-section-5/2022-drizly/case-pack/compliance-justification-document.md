@@ -27,10 +27,6 @@ Following the FTC consent order, this document supports a **compliance justifica
 | Data minimization | Retention schedule; deletion logs | PR.IP, privacy |
 | Biennial assessment | Third-party report; remediation tracking | Governance |
 
----
+**Document-type guide:** [Compliance Justification Document](../../../../document-types/regulatory-compliance/compliance-justification-document.md)
 
-## Primary sources
-
-- **FTC Decision and Order:** [Decision and Order — Drizly, LLC, and James Cory Rellas](https://www.ftc.gov/system/files/ftc_gov/pdf/2023185-drizly-combined-consent.pdf), FTC Docket No. 2023185 (Oct. 24, 2022).
-- **NIST Cybersecurity Framework:** [NIST CSF](https://www.nist.gov/cyberframework) — for control-to-outcome mapping.
-- **CIS Controls:** [CIS Critical Security Controls](https://www.cisecurity.org/controls) — often used in regulatory and audit contexts.
+**Writing tips:** [Writing best practices — Compliance Justification Document](../../../../studio/writing-best-practices.md#compliance-justification-document)

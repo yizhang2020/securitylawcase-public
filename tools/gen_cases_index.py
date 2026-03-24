@@ -16,7 +16,7 @@ def main():
             "year": data.get("year", ""),
             "title": data.get("title", "Untitled"),
             "regime": ", ".join(data.get("regime", [])),
-            "incident": ", ".join(data.get("incident_type", [])),
+            "technical": ", ".join(data.get("technical_focus", [])),
             "link": f"{rel_dir}/"
         })
 
@@ -25,11 +25,11 @@ def main():
     lines = [
         "# All cases\n\n",
         "This page is generated from each case folder’s `case.json`.\n\n",
-        "| Year | Case | Regime | Incident type |\n",
+        "| Year | Case | Regime | Technical focus |\n",
         "|---:|---|---|---|\n",
     ]
     for c in cases:
-        lines.append(f"| {c['year']} | [{c['title']}]({c['link']}) | {c['regime']} | {c['incident']} |\n")
+        lines.append(f"| {c['year']} | [{c['title']}]({c['link']}) | {c['regime']} | {c['technical']} |\n")
 
     OUT.write_text("".join(lines), encoding="utf-8")
     print(f"Wrote {OUT}")

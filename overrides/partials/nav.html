@@ -10,15 +10,15 @@
   {% set class = class ~ " md-nav--integrated" %}
 {% endif %}
 <nav class="{{ class }}" aria-label="{{ lang.t('nav') }}" data-md-level="0">
+  {#- Sidebar: text-only home link — avoids duplicating the header logo icon (Material default SVG or theme image). -#}
   <label class="md-nav__title" for="__drawer">
-    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-nav__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
-      {% include "partials/logo.html" %}
+    <a href="{% if nav.homepage %}{{ nav.homepage.url | url }}{% else %}{{ config.extra.homepage | default('.', true) | url }}{% endif %}" title="{{ config.site_name | e }}" class="md-nav__button md-nav__brand" aria-label="{{ config.site_name }}" data-md-component="logo">
+      {% if config.site_name == "SecurityLawCase" %}
+      <span class="brand-security">Security</span><span class="brand-lawcase">LawCase</span>
+      {% else %}
+      {{ config.site_name }}
+      {% endif %}
     </a>
-    {% if config.site_name == "SecurityLawCase" %}
-    <span class="brand-security">Security</span><span class="brand-lawcase">LawCase</span>
-    {% else %}
-    {{ config.site_name }}
-    {% endif %}
   </label>
   {% if config.repo_url %}
     <div class="md-nav__source">

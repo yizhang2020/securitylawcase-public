@@ -202,18 +202,42 @@ html {
   align-items: center;
 }
 
-/* Logo sizing (ensure image is visible; path is relative to docs_dir) */
+/* Logo sizing: cap intrinsic SVG/img size so a missing theme stylesheet never shows huge icons */
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
-  height: 28px;
+  height: 1.75rem;
+  max-height: 1.75rem;
+  max-width: 1.75rem;
   width: auto;
   display: block;
+  flex-shrink: 0;
 }
-.md-nav__button.md-logo img,
-.md-nav__button.md-logo svg {
-  height: 28px;
-  width: auto;
-  display: block;
+/* Sidebar brand (text home link) — no duplicate logo graphic */
+.md-nav__button.md-nav__brand {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0;
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  max-width: 100%;
+}
+.md-nav__button.md-nav__brand .brand-security,
+.md-nav__button.md-nav__brand .brand-lawcase {
+  font-size: inherit;
+}
+[data-md-color-scheme="default"] .md-nav__button.md-nav__brand .brand-security {
+  color: #81c784;
+}
+[data-md-color-scheme="default"] .md-nav__button.md-nav__brand .brand-lawcase {
+  color: #64b5f6;
+}
+[data-md-color-scheme="slate"] .md-nav__button.md-nav__brand .brand-security {
+  color: #66bb6a;
+}
+[data-md-color-scheme="slate"] .md-nav__button.md-nav__brand .brand-lawcase {
+  color: #42a5f5;
 }
 
 /* =========================================

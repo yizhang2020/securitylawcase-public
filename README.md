@@ -85,7 +85,7 @@ What a security leader or architect should do in practice after studying the cas
 
 ## Taxonomy
 
-Cases are organized across multiple dimensions.
+Cases are grouped by **regime** (the folder under `docs/cases/`, e.g. `major-breaches/`, `ftc-section-5/`) and cross-linked through **legal issues** in the taxonomy pages below.
 
 ### Regime
 
@@ -103,24 +103,6 @@ Federal regulators and laws including:
 - CFAA
 - SEC cybersecurity disclosure rules
 - NYDFS 500
-
-### Incident Type
-
-`taxonomy/incident-types.md`
-
-Technical failure categories such as:
-
-- cloud misconfiguration
-- SSRF exploitation
-- credential stuffing
-- third-party breaches
-- ransomware
-- business email compromise
-- web application vulnerabilities
-- insider threats
-- logging and monitoring failures
-
-Each incident type includes a short explanation and a representative case.
 
 ### Legal Issue
 
@@ -196,38 +178,6 @@ All case pages rely on:
 This site does not reproduce copyrighted legal commentary.
 
 All analysis represents original interpretation unless otherwise cited.
-
-## Repository Structure (as of 2026-03-16)
-
-```text
-docs/
-  index.md
-  browse/
-    index.md
-  cases/
-    major-breaches/
-      2019-capital-one/
-    ftc-section-5/
-      2022-drizly/
-    sec-disclosure/
-    _template/
-  taxonomy/
-    regimes.md
-    incident-types.md
-    legal-issues.md
-  studio/
-    index.md
-    workflows.md
-    document-types.md
-  document-types/
-  methodology.md
-  research/
-  assets/
-mkdocs.yml
-.github/
-  workflows/
-    deploy.yml
-````
 
 ## Built With Zensical and...
 

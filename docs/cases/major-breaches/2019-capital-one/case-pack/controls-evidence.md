@@ -1,110 +1,57 @@
-# Controls → Evidence Map (Capital One 2019)
+# Controls -> Evidence Map (Capital One 2019)
 
-This is the core premium artifact: **what to implement** and **what to prove**.
+## Purpose
 
-## How to use this
-For each control domain:
-- **Required control state** = what “good” looks like
-- **Evidence artifacts** = what you should be able to produce quickly
-- **Verification signals** = what proves it’s operating (not just documented)
+Provide a technical control-to-evidence appendix that a Lead Security Engineer can submit to the CISO (and that the CISO can attach to regulator responses) to demonstrate implementation status, operating effectiveness, and evidence readiness for post-incident compliance.
 
----
+## Hallucinated writing examples
 
-## 1) Cloud configuration governance (Config-as-code)
+**Scenario:** In November 2020, after the OCC Consent Order and while preparing for examiner follow-up **(time)**, a Senior Lead Security Engineer **(role)** submits a Controls -> Evidence Map **(type)** to the CISO and Audit Committee technical reviewers **(audience)**. The document is written as a technical implementation appendix focused on control state, evidence artifacts, and measurable verification signals.
 
-### Required control state
-- Edge/perimeter controls (WAF, routing, exposure rules) are managed as code
-- Peer-reviewed changes with approvals
-- Drift detection + alerting for high-risk changes
-- Standard baselines and exceptions tracked
+<div class="writing-example-formal">
 
-### Evidence artifacts
-- Repository history (PRs, approvals, commits) for WAF/boundary policies
-- Change tickets linking to approvals and risk review
-- Baseline configuration documents + exception register
-- Drift detection reports + remediation tickets
+<p><strong>CONTROLS -> EVIDENCE MAP (TECHNICAL APPENDIX)</strong></p>
 
-### Verification signals
-- % of perimeter changes via PR workflow
-- Mean time to detect and remediate drift
-- # of emergency changes without post-approval (should trend down)
+<div class="doc-meta">
+<p><strong>To: </strong>Chief Information Security Officer; Audit Committee Technical Review Team<br>
+<strong>From: </strong>Senior Lead Security Engineer, Cloud Security<br>
+<strong>Date: </strong>November 20, 2020<br>
+<strong>Subject: </strong>Control Implementation and Evidence Readiness Appendix — Capital One 2019 Incident Remediation</p>
+</div>
 
----
+<p><strong>Technical Objective: </strong>This appendix documents required control state, available evidence artifacts, and verification signals for the key control domains implicated by the 2019 incident and subsequent enforcement actions. It is designed for technical and compliance stakeholders who need implementation-level proof, not policy-only assertions.</p>
 
-## 2) IAM least privilege for sensitive storage
+<p><strong>Scope: </strong>Cloud boundary controls, IAM and privileged access, detection and investigation readiness, vulnerability and exposure management, and governance assurance evidence.</p>
 
-### Required control state
-- Explicitly scoped roles for data access
-- Separation between app runtime roles and data admin roles
-- Regular access review with accountable sign-off
-- Explicit deny patterns for sensitive data paths
+<p><strong>1) Cloud Configuration Governance (Config-as-Code): </strong></p>
+<p><strong>Required Control State: </strong>Boundary controls (WAF/routing/exposure) are managed as code; all production changes require peer-reviewed approval; drift detection is enabled for high-risk resources; baseline and exception records are maintained.<br>
+<strong>Evidence Artifacts: </strong>Repository pull-request history for boundary policy changes; approved change tickets linked to risk review; baseline configuration snapshots; drift alerts and remediation tickets.<br>
+<strong>Verification Signals: </strong>Percentage of perimeter changes executed through PR workflow; mean time to detect and remediate drift; \# of emergency changes without post-approval.</p>
 
-### Evidence artifacts
-- IAM role definitions (snapshots) and policy JSON
-- Access review records (who approved, when, and why)
-- Privileged role inventory + rotation policy
-- Evidence of removal of stale permissions
+<p><strong>2) IAM Least Privilege for Sensitive Storage: </strong></p>
+<p><strong>Required Control State: </strong>Roles are explicitly scoped to function; app runtime access is separated from administrative access; periodic access recertification is enforced; explicit deny controls protect sensitive data paths.<br>
+<strong>Evidence Artifacts: </strong>IAM policy JSON snapshots and diffs; access review attestations with approver and rationale; privileged role inventory; stale-permission removal evidence.<br>
+<strong>Verification Signals: </strong>\# of wildcard-permission roles; percentage of in-scope roles reviewed in the last 90 days; privilege-escalation alert volume and closure time.</p>
 
-### Verification signals
-- # of roles with wildcard permissions (should trend down)
-- % of roles reviewed in last 90 days
-- Alerts for privilege escalation events
+<p><strong>3) Detection and Investigation Readiness: </strong></p>
+<p><strong>Required Control State: </strong>Centralized telemetry covers cloud control plane, WAF, authentication, and sensitive data access paths; alert thresholds are documented for anomalous access/exfiltration patterns; investigation runbooks are operationalized with consistent ticketing fields; log retention supports legal and regulatory inquiry timelines.<br>
+<strong>Evidence Artifacts: </strong>Log retention configuration exports; versioned anomaly-detection queries and rules; SOC runbooks; incident investigation tickets with timeline reconstruction.<br>
+<strong>Verification Signals: </strong>Log coverage percentage for critical systems; alert-to-triage and triage-to-containment durations; investigation completeness scoring.</p>
 
----
+<p><strong>4) Vulnerability and Attack Surface Management: </strong></p>
+<p><strong>Required Control State: </strong>Internet-facing assets are inventoried with accountable owners; continuous scanning is enforced with SLA-based remediation; high-risk applications maintain WAF rules aligned to threat models.<br>
+<strong>Evidence Artifacts: </strong>Asset inventory exports with ownership mapping; vulnerability backlog and SLA metrics; approved exceptions with expiry date and compensating controls.<br>
+<strong>Verification Signals: </strong>SLA compliance percentage; \# of critical vulnerabilities past SLA; percentage of internet-facing assets with owner and risk tier.</p>
 
-## 3) Detection & investigation readiness (cloud audit + WAF + auth logs)
+<p><strong>5) Governance, Risk, and Independent Testing: </strong></p>
+<p><strong>Required Control State: </strong>Risk assessments produce tracked remediation items; risk acceptance requires formal approval with revisit date; independent testing validates operating effectiveness and closure quality.<br>
+<strong>Evidence Artifacts: </strong>Risk register entries with mitigation status; signed risk acceptance records; independent assessment/audit reports and remediation tracking evidence.<br>
+<strong>Verification Signals: </strong>\# of accepted risks without revisit date; audit-finding closure rate; time-to-close for high-risk findings.</p>
 
-### Required control state
-- Centralized logging for: cloud control plane, WAF, auth, sensitive data access
-- Documented alert thresholds for anomalous reads/exfil patterns
-- Playbooks for investigation with consistent ticketing
-- Defined retention + access to logs for legal inquiry
+<p><strong>Submission Note: </strong>This appendix is technical by design and intended to accompany executive or regulator-facing narrative documents as implementation proof.</p>
 
-### Evidence artifacts
-- Log retention policy and configuration evidence
-- Sample queries used to detect anomalies (stored and versioned)
-- SOC runbooks + investigation ticket examples
-- Post-incident review format + “lessons learned” tracking
+</div>
 
-### Verification signals
-- Log coverage % for critical systems
-- Alert-to-triage time and triage-to-containment time
-- Investigation completeness scoring (required fields filled)
+**Document-type guide:** [Security Control Implementation Explanation](../../../../document-types/regulatory-compliance/security-control-implementation-explanation.md)
 
----
-
-## 4) Vulnerability management & attack surface control
-
-### Required control state
-- Asset inventory for internet-facing apps
-- Continuous scanning + defined remediation SLAs
-- WAF rules tied to threat models and application risk
-
-### Evidence artifacts
-- Asset inventory exports + ownership mapping
-- Vulnerability backlog with SLA metrics
-- Exceptions with expiry dates and compensating controls
-
-### Verification signals
-- SLA compliance %
-- # of critical vulns past SLA
-- % internet-facing assets with owner + risk tier assigned
-
----
-
-## 5) Governance: risk management + independent testing
-
-### Required control state
-- Risk assessments produce tracked remediation
-- Risk acceptance requires approval + follow-up plan
-- Independent testing/audit validates effectiveness and closure
-
-### Evidence artifacts
-- Risk register entries + mitigation status reports
-- Risk acceptance memos with approvers + revisit schedule
-- Audit/assessment reports + remediation tracking evidence
-
-### Verification signals
-- # of accepted risks without revisit dates
-- Closure rate for audit findings
-- Time-to-close for high-risk findings
+**Writing tips:** [Writing best practices — Compliance Justification Document](../../../../studio/writing-best-practices.md#compliance-justification-document)

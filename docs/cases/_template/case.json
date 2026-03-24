@@ -5,7 +5,7 @@
   "jurisdiction": "US",
   "forum": "Court/Regulator",
   "regime": ["FTC Section 5"],
-  "incident_type": ["Cloud misconfiguration"],
+  "technical_focus": ["Cloud misconfiguration"],
   "legal_issues": ["Reasonable security"],
   "industry": ["Financial Services"],
   "entities": ["Company Name"],

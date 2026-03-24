@@ -2,6 +2,18 @@
 
 Execution plan for consent order compliance. Adjust dates to your organization’s order acceptance date.
 
+---
+
+## Purpose
+
+Phased execution plan for meeting consent order milestones (program, IAM, monitoring, retention, assessment)—for program owners tracking delivery against the order timeline.
+
+**Document-type guide:** [Strategic Security Initiative Justification](../../../../document-types/executive-board/strategic-security-initiative-justification.md)
+
+**Writing tips:** [Writing best practices — Strategic Security Initiative Justification](../../../../studio/writing-best-practices.md#strategic-security-initiative-justification)
+
+---
+
 ## 0–30 days
 - Designate program coordinator and document reporting line
 - Publish or adopt written information security program (draft or final)
