@@ -21,7 +21,7 @@ Following the breach, regulators examined whether Capital One’s cybersecurity 
 
 ### Regulatory Enforcement
 
-The **Office of the Comptroller of the Currency (OCC)** determined that Capital One failed to establish effective risk management processes governing its cloud infrastructure. The OCC imposed an **$80 million civil penalty** and issued a consent order requiring improvements to the bank’s cybersecurity and operational risk management program. The **FTC** also investigated under consumer protection authority.
+The **Office of the Comptroller of the Currency (OCC)** determined that Capital One failed to establish effective risk management processes governing its cloud infrastructure. The OCC imposed an **$80 million civil penalty** and issued a consent order requiring improvements to the bank’s cybersecurity and operational risk management program. The **FTC** also investigated under its protection authority.
 
 ### Legal Claims and Outcome
 
@@ -40,7 +40,7 @@ The breach resulted from a **misconfigured cloud security control that allowed a
 3. The attacker retrieved **temporary AWS credentials** associated with an IAM role.
 4. The credentials provided access to internal AWS resources.
 5. The attacker used the credentials to query **Amazon S3 storage buckets** containing Capital One data.
-6. The attacker copied the data and stored it on external infrastructure.
+6. The attacker copied the data and stored it on an external infrastructure.
 
 ### Engineering takeaways
 

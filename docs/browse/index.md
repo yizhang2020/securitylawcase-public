@@ -7,7 +7,7 @@ Case write-ups that are complete and proofread.
 
 | Year | Case | Regime | Technical focus |
 |---:|---|---|---|
-| *No cases yet.* | | | |
+| 2019 | [Capital One (2019) — Cloud Breach, Regulatory Enforcement, and Class Settlement](../cases/major-breaches/2019-capital-one/) | Bank regulator enforcement (OCC/Federal Reserve), Civil class action, CFAA (criminal) | Cloud misconfiguration, SSRF / metadata service abuse (reported), Data exfiltration |
 
 ## In progress — proofreading
 
@@ -15,7 +15,6 @@ Cases with full write-ups; proofreading in progress.
 
 | Year | Case | Regime | Technical focus |
 |---:|---|---|---|
-| 2019 | [Capital One (2019) — Cloud Breach, Regulatory Enforcement, and Class Settlement](../cases/major-breaches/2019-capital-one/) | Bank regulator enforcement (OCC/Federal Reserve), Civil class action, CFAA (criminal) | Cloud misconfiguration, SSRF / metadata service abuse (reported), Data exfiltration |
 | 2022 | [FTC v. Drizly, LLC (2022) — Credential Stuffing and Reasonable Security](../cases/ftc-section-5/2022-drizly/) | FTC Section 5 (Unfairness) | Credential stuffing, Account takeover, Excessive data retention |
 
 ## In progress — next
