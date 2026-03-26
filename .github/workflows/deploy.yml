@@ -41,7 +41,7 @@ jobs:
 
       - name: Build site
         run: |
-          zensical build --clean
+          mkdocs build --clean
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
