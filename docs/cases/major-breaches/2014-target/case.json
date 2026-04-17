@@ -1,0 +1,53 @@
+{
+  "id": "target-mdl-2014",
+  "title": "In re Target Corp. Customer Data Security Breach Litigation (2014) — MDL and Eighth Circuit",
+  "year": 2014,
+  "jurisdiction": "US",
+  "forum": "U.S. District Court (D. Minn.) / Eighth Circuit",
+  "regime": ["Consumer class litigation", "Financial institution litigation (related MDL tracks)"],
+  "technical_focus": [
+    "Retail payment card environments",
+    "Large-scale customer data exposure",
+    "POS and store network security (high level)"
+  ],
+  "legal_issues": ["Rule 12(b)(6)", "Class certification (Rule 23)", "Settlement objectors", "Breach litigation remedies"],
+  "industry": ["Retail"],
+  "entities": ["Target Corporation"],
+  "timeline": [
+    { "date": "2013-12", "event": "Public disclosure of major payment card / customer data breach" },
+    { "date": "2014-12-18", "event": "District court issues 66 F. Supp. 3d 1154 (motion to dismiss rulings)" },
+    { "date": "2017-02-01", "event": "Eighth Circuit issues 847 F.3d 608 (class certification rigor / remand)" }
+  ],
+  "primary_sources": [
+    {
+      "label": "D. Minn. opinion (66 F. Supp. 3d 1154) — CourtListener",
+      "url": "https://www.courtlistener.com/opinion/2762820/in-re-target-corp-customer-data-security-breach-litigation/",
+      "type": "opinion"
+    },
+    {
+      "label": "Eighth Circuit opinion (847 F.3d 608) — PDF",
+      "url": "https://media.ca8.uscourts.gov/opndir/17/02/153909P.pdf",
+      "type": "opinion"
+    },
+    {
+      "label": "Eighth Circuit amended opinion (May 2, 2017) — PDF",
+      "url": "https://media.ca8.uscourts.gov/opndir/17/05/153909P.pdf",
+      "type": "opinion"
+    }
+  ],
+  "controls_map": {
+    "nist_csf": ["PR.AC", "PR.DS", "DE.CM", "RS.AN"],
+    "cis_controls": ["1", "3", "4", "5", "8", "12"]
+  },
+  "evidence_artifacts": [
+    "Forensic timelines and chain-of-custody records",
+    "Network segmentation diagrams and firewall baselines (store/POS segments)",
+    "Vendor remote access logs and approvals",
+    "Centralized logging and retention policies aligned to legal hold",
+    "Incident response tickets and executive communications (privileged review)"
+  ],
+  "engineering_takeaways": [
+    "Retail payment environments can drive decade-scale MDL litigation; logging and change control matter for disputes.",
+    "Class certification outcomes can turn on rigorous, specific findings and appellate review standards."
+  ]
+}

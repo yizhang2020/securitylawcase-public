@@ -6,13 +6,11 @@
 
 ## Purpose
 
-Codify mandatory requirements for cloud perimeter and boundary security after the WAF misconfiguration root cause—so policy, standards, and evidence align with OCC consent order expectations and audit review.
-
----
+This draft policy converts lessons and obligations from Capital One 2019 into enforceable internal requirements, control expectations, and governance responsibilities. It is structured for review by security leadership, legal, and affected business owners before formal adoption.
 
 ## Hallucinated writing examples
 
-**Scenario:** In November 2020, following the OCC Consent Order (August 6, 2020) and the July 2019 incident **(time)**, the Security Director **(role)** is tasked with drafting an enterprise security policy for cloud configuration and boundary security **(type)** for the CISO, Legal, and the Board Audit Committee **(audience)**. The policy is required under the Consent Order and must address the root cause of the incident (WAF misconfiguration and configuration governance). The draft must be supportable by standards and evidence.
+**Scenario:** In an illustrative period following the 2019 Capital One cloud breach and related enforcement and litigation tracks **(time)**, the Security Director **(role)** prepares a security policy draft **(type)** for leadership stakeholders **(audience)**.
 
 <div class="writing-example-formal">
 

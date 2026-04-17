@@ -1,39 +1,36 @@
-# Security Public Statement (FTC v. Drizly 2022)
+# Security Public Statement — Drizly (2022)
 
-> Draft for press or public breach/incident statement. Not an official Drizly statement; for reference and structure only.
+> Public breach disclosure and customer notification; illustrates same-day press release style aligned with legal and law-enforcement context where applicable.
 
 ---
 
 ## Purpose
 
-A template for a public statement after a data breach: what happened, what data was affected, what the company is doing (remediation, notification, credit monitoring if applicable), and what consumers can do. For the Drizly incident, the company would have issued (or did issue) a statement once the breach was known; the FTC complaint describes that Drizly learned of the breach from external reports. Use this structure when drafting similar statements: factual, concise, no legal conclusions; direct affected individuals to specific actions (e.g., monitor accounts, place fraud alert).
-
----
+This document prepares a formal external statement framework for Drizly (2022), balancing accuracy, legal sensitivity, and audience trust. It helps communications, legal, and security teams present consistent facts, remediation posture, and next steps without overstatement or omission.
 
 ## Hallucinated writing examples
 
-**Scenario:** In July 2020, shortly after learning of external reports that consumer data was offered for sale online **(time)**, the CISO **(role)** prepares a security public statement **(type)** for review by the Board Audit Committee **(audience)** prior to publication. The statement is factual, concise, and avoids overstating prior security controls.
+**Scenario:** In an illustrative period following the FTC October 2022 consent order after the July 2020 Drizly breach **(time)**, the Security Director **(role)** prepares a security public statement **(type)** for leadership stakeholders **(audience)**.
 
 <div class="writing-example-formal">
 
-<p><strong>DRAFT SECURITY PUBLIC STATEMENT</strong></p>
+<p><strong>PRESS RELEASE — FOR IMMEDIATE RELEASE</strong></p>
 
 <div class="doc-meta">
-<p><strong>To: </strong>Board Audit Committee<br>
-<strong>From: </strong>Chief Information Security Officer<br>
-<strong>Date: </strong>July 15, 2020<br>
-<strong>Subject: </strong>Draft Public Statement — Security Incident and Consumer Guidance</p>
+<p><strong>Subject: </strong>Public Statement — Drizly Security Incident and Program Enhancement Update<br>
+<strong>Date: </strong>December 7, 2022<br>
+<strong>Contact: </strong>[Media relations and customer support contact]</p>
 </div>
 
-<p>The Company is investigating reports indicating unauthorized access to certain systems and potential acquisition of consumer information. We are working with forensic specialists to determine the scope of the incident and to secure our systems.</p>
+<p>Drizly continues to implement security and governance improvements following the 2020 incident and related FTC consent order. The Company is focused on transparent communication and ongoing protection of customer information.</p>
 
-<p><strong>What Happened: </strong>We recently became aware of reports that data associated with our service may be offered for sale online. We immediately initiated an investigation and took steps to secure affected systems.</p>
+<p>The 2020 incident involved unauthorized access linked to compromised credentials and subsequent access to customer data. Drizly has implemented corrective actions and continues to enhance controls under established compliance commitments.</p>
 
-<p><strong>What Information May Be Involved: </strong>Based on current information, the data may include consumer account and contact information. Our investigation remains ongoing, and we will provide updates as appropriate.</p>
+<p>Impacted information involved customer account-related data categories previously disclosed in incident communications. Drizly continues to support affected users through dedicated assistance channels.</p>
 
-<p><strong>What We Are Doing: </strong>We have engaged external cybersecurity specialists, are reviewing access controls and credential handling, and are implementing additional safeguards. We are also assessing notification obligations.</p>
+<p>Drizly is strengthening identity controls, secret management, monitoring, and retention governance, and is tracking progress through formal compliance and oversight mechanisms.</p>
 
-<p><strong>What Consumers Can Do: </strong>We encourage consumers to remain vigilant by reviewing account activity, monitoring for suspicious communications, and using unique, strong passwords for online accounts. Consumers should be cautious of unsolicited communications requesting personal information.</p>
+<p>Customers should monitor accounts, use available security protections, and rely on official Drizly channels for updates. Information and support resources are available at [URL].</p>
 
 </div>
 

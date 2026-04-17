@@ -6,13 +6,11 @@
 
 ## Purpose
 
-Brief the board on the July 2020 breach, FTC Section 5 findings, and the October 2022 consent order: incident summary, root causes, program and retention obligations, and decisions on budget, assessments, and reporting. Supports oversight of consent-order compliance and residual risk.
-
----
+This board brief provides decision-useful context for FTC v. Drizly 2022: the July 2020 incident, the October 2022 consent order, root causes in IAM and secure development, and specific oversight decisions requested from directors. It is designed to help the board evaluate governance adequacy, remediation priority, and reporting cadence across legal, technical, and operational dimensions.
 
 ## Hallucinated writing examples
 
-**Scenario:** In November 2022, shortly after the Federal Trade Commission accepted the consent order in *In the Matter of Drizly, LLC, and James Cory Rellas* **(time)**, the Chief Information Security Officer **(role)** delivers a board security brief **(type)** to the Board Audit Committee **(audience)**. The brief summarizes the July 2020 data breach, root causes, the FTC’s findings, and the company’s plan to comply with the consent order. The audience is the board responsible for oversight of risk and compliance.
+**Scenario:** In an illustrative period following the FTC October 2022 consent order after the July 2020 Drizly breach **(time)**, the Chief Information Security Officer **(role)** prepares a board security brief **(type)** for Board Audit Committee **(audience)**.
 
 <div class="writing-example-formal">
 
@@ -22,19 +20,40 @@ Brief the board on the July 2020 breach, FTC Section 5 findings, and the October
 <p><strong>To: </strong>Board Audit Committee<br>
 <strong>From: </strong>Chief Information Security Officer<br>
 <strong>Date: </strong>November 15, 2022<br>
-<strong>Subject: </strong>Board Security Brief — July 2020 Data Breach; FTC Consent Order and Remediation Plan</p>
+<strong>Subject: </strong>Board Security Brief — July 2020 Data Breach; FTC Decision and Order (Docket No. 2023185); Remediation Plan</p>
 </div>
 
-<p>This brief summarizes the cybersecurity incident that resulted in unauthorized access to and exfiltration of personal information of approximately 2.5 million consumers in July 2020, the root causes identified by the Federal Trade Commission and our internal review, the consent order accepted by the FTC on October 24, 2022, and the Company’s remediation and compliance plan. References: FTC Complaint and Decision and Order, <em>In the Matter of Drizly, LLC, and James Cory Rellas</em>, FTC Docket No. 2023185 (Oct. 24, 2022).</p>
+<p>This memorandum summarizes the July 2020 cybersecurity incident affecting approximately 2.5 million consumers, the Federal Trade Commission’s complaint and Decision and Order accepted October 24, 2022 (<em>In the Matter of Drizly, LLC, and James Cory Rellas</em>, FTC Docket No. 2023185), and the Company’s remediation and compliance program. The FTC did not impose a civil money penalty in this action; obligations are primarily injunctive and program-based, with individual duties on the CEO in future covered roles.</p>
 
-<p><strong>Incident Summary: </strong>In July 2020, an attacker obtained access to an executive’s GitHub account through credential reuse (credentials from an unrelated breach). The executive had been granted access to the Company’s GitHub repositories for a one-day event; that access had not been revoked, and the account did not use multifactor authentication. The attacker used the compromised account to access repositories containing AWS and database credentials stored in source code. The attacker then accessed our production environment and exfiltrated the User Table containing more than 2.5 million consumer records. The Company did not detect the breach internally; we learned of it from external reports that customer data was offered for sale on dark web forums.</p>
+<p><strong>Incident Summary: </strong>In July 2020, an attacker compromised an executive’s GitHub account through credential reuse from an unrelated breach. The executive retained access after a short-term need, without multifactor authentication. The attacker accessed repositories containing cloud and database credentials, entered the production environment, and exfiltrated a user table with personal information for more than 2.5 million consumers. The Company did not detect the breach internally initially; we learned of it from external reporting that data was offered for sale.
+<br>
+The FTC alleged unfair security practices and deception regarding safeguards described in public statements.</p>
 
-<p><strong>Regulatory Outcome: </strong>The FTC investigated and alleged that our security practices were unfair and that certain public statements about security were deceptive under Section 5 of the FTC Act. The FTC did not impose a monetary penalty. The consent order requires us to implement a comprehensive information security program, publish and adhere to a data retention schedule, limit collection and retention of personal information, obtain biennial independent security assessments, and maintain specified reporting and recordkeeping. The order also imposes obligations on the CEO individually if he moves to another company that collects consumer data above a specified threshold.</p>
+<p><strong>Regulatory and Legal Outcomes: </strong>The consent order requires a comprehensive written information security program (coordinator, risk assessment, access controls, secure development, monitoring, vendor oversight), a published data retention schedule and minimization discipline, biennial independent assessments, and recordkeeping. CEO-specific obligations apply if he serves in a leadership role at another company meeting the order’s coverage thresholds. Management coordinates implementation with legal and compliance.</p>
 
-<p><strong>Root Causes and Control Gaps: </strong>The FTC’s complaint and our internal review identified: (1) storage of AWS and database credentials in GitHub repositories; (2) lack of multifactor authentication and strong password requirements for access to source code and production credentials; (3) failure to revoke or monitor access after the one-day event; (4) insufficient monitoring and detection of exfiltration and anomalous access; (5) no formal data retention schedule or deletion practice for unnecessary personal information; (6) prior incident in 2018 involving exposed credentials on GitHub without adequate follow-up controls. These areas are the focus of our remediation plan.</p>
+<p><strong>Control Failures and Root Causes: </strong>The FTC’s complaint and our internal review identified:</p>
 
-<p><strong>Remediation and Consent Order Compliance: </strong>We are implementing or have implemented: (1) a written information security program with designated coordinator, risk assessment, access control and credential management (including MFA for all privileged and sensitive access), secure development practices (no credentials in code; repository scanning), monitoring and testing, and vendor oversight; (2) a published data retention schedule and process to delete or de-identify personal information when no longer necessary; (3) biennial independent third-party assessments and submission of reports to the FTC upon request. We request the Committee’s approval of the program framework, retention schedule, and budget for assessments and monitoring enhancements.</p>
+<ol>
+  <li>Storage of cloud and database credentials in source repositories;</li>
+  <li>Failure to enforce MFA and strong credential hygiene for GitHub and production administration paths;</li>
+  <li>Failure to revoke or monitor temporary elevated access after the one-day event;</li>
+  <li>Insufficient monitoring and detection for exfiltration and anomalous access;</li>
+  <li>Absence of a formal minimization and retention program aligned to actual collection practices;</li>
+  <li>Prior 2018 GitHub exposure of credentials without adequate sustained remediation.</li>
+</ol>
 
+<p>These areas are the focus of our remediation plan.</p>
+
+<p><strong>Remediation and Order Compliance: </strong>The Company is implementing MFA for privileged and sensitive paths, secret scanning and pipeline blocking, access reviews and offboarding discipline, centralized logging with retention targets, detection engineering for crown-jewel data flows, a published retention schedule with deletion jobs, and biennial assessment procurement with FTC-ready reporting.</p>
+
+<p><strong>Approval and Endorsement Requests: </strong>Management requests the Committee’s approval of the written program framework and retention schedule for publication; approval of budget for SIEM, secret-management tooling, and independent assessments; and endorsement of executive accountability metrics on MFA coverage, mean time to revoke access, and retention compliance sampling.</p>
+
+<p>
+Please let me know if additional information or further detail would be helpful.
+</p>
+
+<p>Respectfully submitted,</p>
+Chief Information Security Officer
 </div>
 
 **Document-type guide:** [Board Security Brief](../../../../document-types/executive-board/board-security-brief.md)

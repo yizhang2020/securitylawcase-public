@@ -6,13 +6,11 @@
 
 ## Purpose
 
-Answer an examiner or auditor request for how governance works post-incident: context, governance model, security ownership, oversight of risk and controls, and evidence (charters, minutes)—aligned with OCC consent order themes.
-
----
+This memo provides a formal governance response to oversight, audit, or regulatory questions triggered by Capital One 2019. It explains governance design, escalation pathways, accountability, and board-level reporting so reviewers can evaluate whether leadership oversight is effective and durable.
 
 ## Hallucinated writing examples
 
-**Scenario:** In November 2020, following the July 2019 incident and the Consent Order (August 6, 2020) **(time)**, the OCC examiner **(audience)** requests a formal description of the Bank's security governance structure—roles, committees, reporting, and accountability. The Chief Information Security Officer **(role)** must submit a governance response memo **(type)** that explains who owns what, how oversight works, and what evidence supports the description. The memo will be used in the examination and must align with the Consent Order's governance requirements.
+**Scenario:** In an illustrative period following the 2019 Capital One cloud breach and related enforcement and litigation tracks **(time)**, the Capital One Bank (USA), N.A. — Chief Information Security Officer **(role)** prepares a governance response memo **(type)** for Office of the Comptroller of the Currency (Examiner) **(audience)**.
 
 <div class="writing-example-formal">
 

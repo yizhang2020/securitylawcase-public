@@ -6,13 +6,11 @@
 
 ## Purpose
 
-Give counsel and disclosure owners a plain-language architecture and control summary tied to the incident vector, remediation, and limitations—so legal opinions and filings stay accurate and consistent with technical evidence.
-
----
+This memorandum explains the relevant security architecture and control boundaries for Capital One 2019 in terms accessible to legal stakeholders. It links technical design choices to risk outcomes, evidence availability, and obligations under investigation, enforcement, or litigation timelines.
 
 ## Hallucinated writing examples
 
-**Scenario:** In October 2020, in connection with regulatory response (OCC) and potential litigation (consumer class-action, <em>In re Capital One Consumer Data Security Breach Litigation</em>) **(time)**, General Counsel **(audience)** requests a security architecture explanation for legal review. The Lead Security Engineer **(role)** is asked to produce a security architecture memo for legal review **(type)** that explains the AWS-hosted architecture, the July 2019 incident vector, and the post-remediation control environment in plain language suitable for counsel and disclosure. The document must be accurate as of the date of writing and cite the criminal case and Consent Order where relevant.
+**Scenario:** In an illustrative period following the 2019 Capital One cloud breach and related enforcement and litigation tracks **(time)**, the Lead Security Engineer, Cloud Security **(role)** prepares a security architecture explanation for legal review **(type)** for Office of General Counsel **(audience)**.
 
 <div class="writing-example-formal">
 

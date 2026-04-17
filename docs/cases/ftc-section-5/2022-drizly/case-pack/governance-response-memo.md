@@ -1,18 +1,16 @@
 # Governance Response Memo (FTC v. Drizly 2022)
 
-> Respond to an FTC or auditor request on governance: who owns the information security program, how the board is informed, and how the consent order is overseen.
+> Use this to respond to an audit or regulatory request focused on governance: roles, committees, reporting, escalation, and accountability.
 
 ---
 
 ## Purpose
 
-Clarify governance of the information security program and consent order compliance for FTC or auditor review: ownership, board oversight, escalation, and recordkeeping.
-
----
+This memo provides a formal governance response to oversight, audit, or regulatory questions triggered by FTC governance inquiries following the July 2020 breach and October 2022 consent order. It explains governance design, escalation pathways, accountability, and board-level reporting so reviewers can evaluate whether leadership oversight is effective and durable.
 
 ## Hallucinated writing examples
 
-**Scenario:** In November 2022, following the FTC’s consent order **(time)**, an external regulator or auditor **(audience)** requests a memo describing governance of the information security program and consent order compliance. The CISO **(role)** submits a governance response memo **(type)** that addresses board oversight, management accountability, designated program coordinator, and reporting.
+**Scenario:** In an illustrative period aligned to this case’s oversight timeline **(time)**, the Chief Information Security Officer **(role)** prepares a governance response memo **(type)** for Federal Trade Commission (Staff) **(audience)**.
 
 <div class="writing-example-formal">
 
@@ -25,11 +23,13 @@ Clarify governance of the information security program and consent order complia
 <strong>Re: </strong>Governance of Information Security Program and FTC Consent Order (Docket No. 2023185)</p>
 </div>
 
-<p><strong>Board Oversight: </strong>The Board [or Audit Committee] receives [quarterly] reporting on cybersecurity risk, information security program status, and consent order compliance. Reporting includes material risks, control effectiveness, incident summary (if any), and progress against the order’s milestones. The board has approved the written information security program and the data retention schedule required by the order.</p>
+<p><strong>Context: </strong>This memo responds to examiner and oversight requests regarding FTC governance inquiries following the July 2020 breach and October 2022 consent order. It summarizes governance arrangements after the FTC Decision and Order in Docket No. 2023185 requiring governance, retention, and assessment controls and explains how accountability and board-level reporting were strengthened for durable oversight.</p>
 
-<p><strong>Management Accountability: </strong>[Designated executive] has been designated to coordinate the information security program as required by the FTC order. The CISO reports to [executive] and has authority over security policy, standards, and control implementation. Security and technology risk are included in the enterprise risk management process with defined escalation to the board.</p>
+<p><strong>Governance Model: </strong>Board and executive governance forums receive quarterly reporting on information security program implementation, retention schedule execution, and independent assessment progress. The reporting line and committee charters are documented and available for review.</p>
 
-<p><strong>Consent Order Oversight: </strong>Consent order milestones (program implementation, retention schedule, biennial assessment, reporting) are tracked in [system]. Status is reported to the board and to the FTC upon request. [Designated executive] certifies compliance with the order’s reporting and recordkeeping requirements.</p>
+<p><strong>Security Ownership: </strong>The CISO owns policy and standards with designated executive sponsorship for order execution. Material control exceptions and risk acceptance decisions are escalated through legal, compliance, and executive governance channels with dated approvals.</p>
+
+<p><strong>Risk and Control Oversight: </strong>Order milestones are tracked in a governance system with owner assignment, due dates, and evidence links. Variances are escalated with remediation plans; management attestations and board briefing records are retained for FTC request response.</p>
 
 </div>
 

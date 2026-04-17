@@ -6,13 +6,11 @@
 
 ## Purpose
 
-Create a durable record of a material control or program decision (options, rationale, evidence, commitments) after the incident and consent order—so board, OCC, and counsel can show informed, documented decision-making.
-
----
+This document standardizes how significant security and disclosure decisions related to Capital One 2019 are recorded, including rationale, approvers, assumptions, and follow-up actions. It supports legal defensibility, internal accountability, and post-incident learning.
 
 ## Hallucinated writing examples
 
-**Scenario:** In September 2020, one month after the OCC Consent Order (August 6, 2020) **(time)**, the Security Director **(role)** is required to document a material security decision: the adoption of config-as-code and drift detection as mandatory controls for cloud perimeter assets. The security decision record **(type)** will be shared with the Board, the OCC, and potentially counsel **(audience)** in connection with the Consent Order and litigation. The record must state what was decided, who participated, what options were considered, and what evidence or inputs were relied on.
+**Scenario:** In an illustrative period following the 2019 Capital One cloud breach and related enforcement and litigation tracks **(time)**, the Security Director **(role)** prepares a security decision documentation **(type)** for leadership stakeholders **(audience)**.
 
 <div class="writing-example-formal">
 

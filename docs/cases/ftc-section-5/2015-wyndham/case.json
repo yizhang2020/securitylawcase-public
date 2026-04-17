@@ -1,0 +1,66 @@
+{
+  "id": "ftc-wyndham-2015",
+  "title": "FTC v. Wyndham Worldwide Corp. (2015) — Section 5 Cybersecurity and Third Circuit Affirmance",
+  "year": 2015,
+  "jurisdiction": "US",
+  "forum": "U.S. District Court (D.N.J.) / Third Circuit / FTC",
+  "regime": ["FTC Section 5 (Unfairness)", "FTC Section 5 (Deception)"],
+  "technical_focus": [
+    "Payment card data",
+    "Franchise and property-to-corporate network connectivity",
+    "Segmentation and access control",
+    "PCI DSS assessments (order-specific)"
+  ],
+  "legal_issues": ["Unfairness", "Deception", "FTC authority", "Fair notice"],
+  "industry": ["Hospitality", "Franchising"],
+  "entities": [
+    "Wyndham Worldwide Corporation",
+    "Wyndham Hotel Group, LLC",
+    "Wyndham Hotels & Resorts, LLC",
+    "Wyndham Hotel Management, Inc."
+  ],
+  "timeline": [
+    { "date": "2012-06-26", "event": "FTC files federal complaint (payment card breaches and security practices)" },
+    { "date": "2014-04-07", "event": "District court denies motion to dismiss in relevant part" },
+    { "date": "2015-08-24", "event": "Third Circuit affirms (799 F.3d 236)" },
+    { "date": "2015-12-11", "event": "Stipulated order for injunction filed" }
+  ],
+  "primary_sources": [
+    {
+      "label": "FTC matter page",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/1023142-x120032-wyndham-worldwide-corporation",
+      "type": "settlement_site"
+    },
+    {
+      "label": "FTC Complaint (June 26, 2012)",
+      "url": "https://www.ftc.gov/sites/default/files/documents/cases/2012/06/120626wyndamhotelscmpt.pdf",
+      "type": "complaint"
+    },
+    {
+      "label": "Third Circuit opinion (799 F.3d 236)",
+      "url": "https://www2.ca3.uscourts.gov/opinarch/143514p.pdf",
+      "type": "opinion"
+    },
+    {
+      "label": "Stipulated Order for Injunction",
+      "url": "https://www.ftc.gov/system/files/documents/cases/151211wyndhamstip.pdf",
+      "type": "order"
+    }
+  ],
+  "controls_map": {
+    "nist_csf": ["PR.AC", "PR.IP", "DE.CM", "ID.RA", "RS.MI"],
+    "cis_controls": ["3", "4", "5", "8", "12", "13"]
+  },
+  "evidence_artifacts": [
+    "Network segmentation diagrams and rule reviews for property-to-corporate paths",
+    "Remote access and privileged account authentication evidence",
+    "Logging and monitoring coverage for cardholder-data environments",
+    "PCI DSS assessment reports and remediation tracking (per order)",
+    "Incident response records across repeated intrusions (historical)"
+  ],
+  "engineering_takeaways": [
+    "Treat franchise and property connectivity as a regulated trust boundary.",
+    "Repeated breaches without durable control uplift increase regulatory and litigation risk.",
+    "Public security claims must match implemented controls and monitoring."
+  ]
+}

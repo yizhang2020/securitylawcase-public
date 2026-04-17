@@ -1,44 +1,37 @@
 # Security Architecture Explanation for Legal Review (FTC v. Drizly 2022)
 
-> Explain architecture and controls for counsel in connection with FTC order compliance or litigation.
+> Use this to explain security architecture and key controls in language suitable for legal review; helps counsel understand technical design and risk.
 
 ---
 
 ## Purpose
 
-A technical memo for General Counsel or outside counsel that explains: (1) architecture relevant to the breach (e.g., GitHub, AWS, production database); (2) how the attacker gained access (credential reuse, repository access, credentials in code); (3) controls now in place (MFA, no secrets in repos, monitoring, retention); (4) evidence available for regulator or discovery. Use precise, non-jargon language where possible; cite the FTC complaint and order for factual and remedial context.
-
----
+This memorandum explains the relevant security architecture and control boundaries for FTC v. Drizly 2022 in terms accessible to legal stakeholders. It links technical design choices to risk outcomes, evidence availability, and obligations under investigation, enforcement, or litigation timelines.
 
 ## Hallucinated writing examples
 
-**Scenario:** In November 2022, after the FTC accepted the consent order **(time)**, a Lead Security Engineer **(role)** provides a security architecture explanation for legal review **(type)** to the CISO **(audience)** to support counsel review, evidence readiness, and order compliance planning.
+**Scenario:** In an illustrative period following the FTC October 2022 consent order after the July 2020 Drizly breach **(time)**, the Lead Security Engineer, Cloud and Application Security **(role)** prepares a security architecture explanation for legal review **(type)** for General Counsel **(audience)**.
 
 <div class="writing-example-formal">
 
-<p><strong>MEMORANDUM</strong></p>
+<p><strong>SECURITY ARCHITECTURE EXPLANATION FOR LEGAL REVIEW</strong></p>
 
 <div class="doc-meta">
-<p><strong>To: </strong>Chief Information Security Officer<br>
-<strong>From: </strong>Lead Security Engineer<br>
-<strong>Date: </strong>November 18, 2022<br>
-<strong>Subject: </strong>Security Architecture and Control Narrative — Incident Attack Path and Remediation Evidence</p>
+<p><strong>To: </strong>General Counsel<br>
+<strong>From: </strong>Lead Security Engineer, Cloud and Application Security<br>
+<strong>Date: </strong>December 1, 2022<br>
+<strong>Re: </strong>Security Architecture Overview — Source Code Access, Cloud Environment, and FTC Order Remediation</p>
 </div>
 
-<p>This memorandum summarizes the architecture implicated by the July 2020 incident, the attack path described in the FTC’s complaint, and the control and evidence changes required by the FTC’s Decision and Order (FTC Docket No. 2023185). The scenario is illustrative; the underlying facts and obligations are grounded in the FTC Complaint and Decision and Order.</p>
+<p><strong>Scope: </strong>This memo summarizes the security architecture relevant to legal review and disclosure support for FTC v. Drizly 2022. It focuses on trust boundaries, control design, and evidence availability, with reference to the FTC Decision and Order in Docket No. 2023185 and related complaint allegations.</p>
 
-<p><strong>Architecture In Scope: </strong>Drizly’s source code and configuration were maintained in GitHub repositories. Production services and data stores were hosted in Amazon Web Services, including a production database (e.g., Amazon RDS). Access to these environments was mediated through credentials and security settings managed in GitHub and AWS.</p>
+<p><strong>Architecture Overview: </strong>The architecture includes source-code repositories, cloud administration pathways, production data stores, and security monitoring layers. Trust boundaries include developer identity systems, CI/CD and repository access, cloud control planes, and consumer data services. Post-incident architecture hardening prioritizes reducing single-account blast radius and improving detection.</p>
 
-<p><strong>Attack Path (Condensed): </strong>The FTC alleged that an attacker accessed an executive’s GitHub account using reused credentials, used that access to reach company repositories, obtained AWS and database credentials stored in those repositories, modified AWS security settings, and then accessed and exfiltrated the User Table containing personal information of approximately 2.5 million consumers. Drizly allegedly did not detect the breach internally and learned of it from external reporting.</p>
+<p><strong>Security Controls (Post-Remediation): </strong>(1) <em>Perimeter and repository controls.</em> Enforced MFA and repository policy controls for sensitive code paths. (2) <em>Access.</em> Privileged account governance with rapid revocation and periodic recertification. (3) <em>Data.</em> Data minimization and retention controls for consumer information at rest and in transit. (4) <em>Monitoring.</em> Secret scanning, centralized logs, and anomalous access detection.</p>
 
-<p><strong>Control Objectives and Evidence (Order-Driven): </strong><br>
-1. <strong>IAM: </strong>enforce MFA and strong authentication for accounts with access to source code and production credentials; maintain access reviews and revocation records.<br>
-2. <strong>Secrets management: </strong>prohibit secrets in repositories; continuous scanning; documented remediation and rotation workflows.<br>
-3. <strong>Monitoring: </strong>logging coverage, retention, and detection for anomalous access and data exfiltration; investigation ticketing and outcomes.<br>
-4. <strong>Data minimization: </strong>retention schedule publication; deletion or de-identification evidence for data no longer necessary.<br>
-5. <strong>Program governance: </strong>documented program coordinator designation, written information security program, and assessment readiness.</p>
+<p><strong>Incident Vector and Remediation: </strong>Public allegations describe credential reuse and repository-access weaknesses that enabled downstream cloud access and data exfiltration. Remediation includes MFA enforcement, secret management, retention controls, and improved detection engineering. Residual risk remains in third-party dependencies and human credential behavior; mitigations include policy enforcement, monitoring, and independent assessments.</p>
 
-<p><strong>Evidence Readiness: </strong>Evidence artifacts should include MFA enforcement logs, access review reports, secret scanning findings and closure, AWS security setting change records, log source inventories and retention configurations, retention schedule and deletion logs, and independent assessment engagement documentation.</p>
+<p><strong>Assumptions and Limitations: </strong>This legal-facing summary is accurate as of the date above and supports disclosure and oversight response. It does not guarantee invulnerability. Detailed diagrams and control-test artifacts are maintained for counsel and regulator review.</p>
 
 </div>
 

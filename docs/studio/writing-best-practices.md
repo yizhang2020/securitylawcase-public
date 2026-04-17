@@ -179,6 +179,27 @@ This page collects **writing analysis** guidance moved from case-pack writing ex
 
 ---
 
+### Security Control Implementation Explanation {#security-control-implementation-explanation}
+
+**How controls-and-evidence artifacts are typically structured** (implementation narrative, evidence map)
+
+- **Scope** — Systems, environments, and regulatory or contractual obligations in scope.
+- **Control domains** — Group by domain (identity, logging, vulnerability, change, data, resilience) with expected control state.
+- **Evidence artifacts** — What you would hand to an examiner (policies, tickets, configs, samples, test results).
+- **Verification** — How you prove the control operates (cadence, sampling, automation).
+- **Gaps and remediation** — Known weaknesses, compensating controls, dates.
+
+**What to emulate**
+
+- Map each obligation or risk theme to concrete artifacts; avoid “we have controls” without naming evidence.
+- Use engineering-correct terms but keep tables and lists scannable for counsel and compliance.
+
+**What to improve**
+
+- Avoid duplicate narrative that already appears in the case index primary-source list; focus on implementation proof.
+
+---
+
 ## Legal-technical analysis
 
 ### Security Architecture Explanation for Legal Review

@@ -6,6 +6,8 @@ __pycache__/
 docs/research/
 .venv-caselaw-pub/
 .claude/
+.cursor/
+scripts/
 
 # Build output (do not check in)
 site/

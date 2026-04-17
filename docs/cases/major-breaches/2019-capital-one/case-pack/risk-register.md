@@ -2,8 +2,7 @@
 
 ## Purpose
 
-Provide an incident-grounded register of the material security risks revealed by the 2019 Capital One breach, so engineering, security leadership, and risk/compliance teams can track remediation, assign owners, and demonstrate control effectiveness to internal and external stakeholders.
-The entries below are prepared for copy and paste into `executive-security-risk-summary.md`, `security-program-status-report.md`, `compliance-justification-document.md`, and `security-governance-memo.md` (either in the main body where risk posture is discussed or as an appendix for detailed risk records).
+This register captures material risks highlighted by Capital One 2019 with severity, impact pathway, mitigation plan, and evidence expectations. It is intended for ongoing governance and audit use so risk acceptance, remediation progress, and accountability remain explicit over time.
 
 ## Risk Register
 

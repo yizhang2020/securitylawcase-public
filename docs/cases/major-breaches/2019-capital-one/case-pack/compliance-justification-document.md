@@ -6,13 +6,11 @@
 
 ## Purpose
 
-Demonstrate how specific controls satisfy named requirements (e.g., NIST CSF, OCC expectations) after the July 2019 incident and consent order—requirement, interpretation, implementation, evidence, and ownership—so examiners and auditors can verify compliance.
-
----
+This mapping document shows how implemented controls satisfy obligations and expectations implicated by Capital One 2019. It is structured for audit and legal review, so each requirement is tied to implementation rationale, ownership, and verifiable artifacts rather than policy statements alone.
 
 ## Hallucinated writing examples
 
-**Scenario:** In November 2020, following the Consent Order (August 6, 2020) and the root cause of the July 2019 incident **(time)**, the OCC examiner **(audience)** requests a control-to-requirement mapping for cloud configuration governance. The Lead Security Engineer **(role)** is tasked with producing a compliance justification document **(type)** that maps one or more requirements (e.g., NIST CSF, OCC expectations) to the Bank's implementation and evidence. The document must be precise and auditable.
+**Scenario:** In an illustrative period following the 2019 Capital One cloud breach and related enforcement and litigation tracks **(time)**, the Security Director **(role)** prepares a compliance justification document **(type)** for leadership stakeholders **(audience)**.
 
 <div class="writing-example-formal">
 

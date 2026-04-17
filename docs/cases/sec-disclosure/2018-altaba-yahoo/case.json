@@ -1,0 +1,83 @@
+{
+  "id": "sec-altaba-yahoo-2018",
+  "title": "In the Matter of Altaba Inc., f/d/b/a Yahoo! Inc. (2018) \u2014 SEC Cybersecurity Disclosure",
+  "year": 2018,
+  "jurisdiction": "US",
+  "forum": "U.S. Securities and Exchange Commission (administrative)",
+  "regime": [
+    "SEC disclosure and internal controls",
+    "Cybersecurity incident disclosure"
+  ],
+  "technical_focus": [
+    "Incident discovery and escalation to disclosure",
+    "Disclosure controls for cybersecurity risk and incidents",
+    "Materiality and timeliness of breach disclosure"
+  ],
+  "legal_issues": [
+    "Securities Act 17(a)(2)-(3)",
+    "Exchange Act reporting and Rule 13a-15 disclosure controls",
+    "Material omissions in periodic reports"
+  ],
+  "industry": [
+    "Internet media",
+    "Technology"
+  ],
+  "entities": [
+    "Altaba Inc. (f/d/b/a Yahoo! Inc.)"
+  ],
+  "timeline": [
+    {
+      "date": "2014-12",
+      "event": "Intrusion affecting hundreds of millions of user accounts (per SEC order findings)"
+    },
+    {
+      "date": "2016-09",
+      "event": "Public disclosure of 2014 breach during sale process"
+    },
+    {
+      "date": "2018-04-24",
+      "event": "SEC cease-and-desist order; $35 million civil penalty (neither admit nor deny)"
+    }
+  ],
+  "primary_sources": [
+    {
+      "label": "SEC Order Instituting Cease-and-Desist Proceedings (File No. 3-18448) \u2014 PDF",
+      "url": "https://www.sec.gov/files/litigation/admin/2018/33-10485.pdf",
+      "type": "order"
+    },
+    {
+      "label": "SEC Litigation Release / press materials (2018-71)",
+      "url": "https://www.sec.gov/newsroom/press-releases/2018-71",
+      "type": "release"
+    },
+    {
+      "label": "Order exhibit (HTML) \u2014 EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1011006/000119312518131302/d577037dex991.htm",
+      "type": "order"
+    }
+  ],
+  "controls_map": {
+    "nist_csf": [
+      "ID.RA",
+      "PR.IP",
+      "DE.CM",
+      "RC.CO"
+    ],
+    "cis_controls": [
+      "3",
+      "6",
+      "14",
+      "17"
+    ]
+  },
+  "evidence_artifacts": [
+    "Security-to-finance escalation records for known incidents",
+    "Disclosure committee minutes and materiality worksheets",
+    "Draft 10-Q/10-K cybersecurity risk language with change history",
+    "Auditor and counsel consultation logs on incident reporting"
+  ],
+  "engineering_takeaways": [
+    "Security incidents must feed disclosure controls\u2014not only operational IR.",
+    "Delayed escalation to legal and finance can become a securities compliance failure."
+  ]
+}

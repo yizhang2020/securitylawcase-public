@@ -1,0 +1,63 @@
+{
+  "id": "marriott-derivative-2021",
+  "title": "Firemen\u2019s Retirement System of St. Louis v. Sorenson (2021) \u2014 Delaware Chancery (Marriott / Starwood)",
+  "year": 2021,
+  "jurisdiction": "US",
+  "forum": "Delaware Court of Chancery",
+  "regime": [
+    "Delaware fiduciary duty",
+    "Derivative litigation"
+  ],
+  "technical_focus": [
+    "M&A cybersecurity diligence (Starwood acquisition)",
+    "Post-close breach disclosure (reservation database)",
+    "Board oversight and Caremark-style claims"
+  ],
+  "legal_issues": [
+    "Demand futility",
+    "Director oversight duty",
+    "Derivative pleading"
+  ],
+  "industry": [
+    "Hospitality"
+  ],
+  "entities": [
+    "Marriott International, Inc.",
+    "Starwood Hotels & Resorts Worldwide, LLC"
+  ],
+  "timeline": [
+    {
+      "date": "2021-04",
+      "event": "Chancery opinion on derivative claims relating to Starwood breach and oversight (see opinion)"
+    }
+  ],
+  "primary_sources": [
+    {
+      "label": "Delaware Court of Chancery opinion (Download.aspx id=325170)",
+      "url": "https://courts.delaware.gov/Opinions/Download.aspx?id=325170",
+      "type": "opinion"
+    }
+  ],
+  "controls_map": {
+    "nist_csf": [
+      "GV.OC",
+      "ID.RA",
+      "PR.IP"
+    ],
+    "cis_controls": [
+      "1",
+      "3",
+      "5",
+      "15"
+    ]
+  },
+  "evidence_artifacts": [
+    "M&A cybersecurity diligence files and post-close integration records",
+    "Board minutes and committee materials on cyber risk (privileged review)",
+    "Breach investigation timeline shared with the board"
+  ],
+  "engineering_takeaways": [
+    "Cyber diligence in M&A must feed post-close control integration and disclosure readiness.",
+    "Board materials should reflect meaningful security risk discussion\u2014not generic risk factors alone."
+  ]
+}

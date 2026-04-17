@@ -2,11 +2,11 @@
 
 ## Purpose
 
-Provide a technical control-to-evidence appendix that a Lead Security Engineer can submit to the CISO (and that the CISO can attach to regulator responses) to demonstrate implementation status, operating effectiveness, and evidence readiness for post-incident compliance.
+This technical appendix maps controls to objective evidence for Capital One 2019, enabling rapid substantiation of implementation and operating effectiveness. It is used by security, compliance, and legal teams to demonstrate what is deployed, how it is monitored, and what records support examiner or litigation requests.
 
 ## Hallucinated writing examples
 
-**Scenario:** In November 2020, after the OCC Consent Order and while preparing for examiner follow-up **(time)**, a Senior Lead Security Engineer **(role)** submits a Controls -> Evidence Map **(type)** to the CISO and Audit Committee technical reviewers **(audience)**. The document is written as a technical implementation appendix focused on control state, evidence artifacts, and measurable verification signals.
+**Scenario:** In an illustrative period following the 2019 Capital One cloud breach and related enforcement and litigation tracks **(time)**, the Senior Lead Security Engineer, Cloud Security **(role)** prepares a controls to evidence map **(type)** for Chief Information Security Officer; Audit Committee Technical Review Team **(audience)**.
 
 <div class="writing-example-formal">
 

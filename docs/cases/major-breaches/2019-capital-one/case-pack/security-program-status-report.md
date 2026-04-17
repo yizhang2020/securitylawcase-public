@@ -6,13 +6,11 @@
 
 ## Purpose
 
-Summarize remediation progress, metrics, and gaps after the breach—for internal leadership and early regulatory engagement—so decision-makers see control effectiveness and evidence readiness against root-cause issues.
-
----
+This status report translates Capital One 2019 requirements and risk lessons into measurable program execution: control rollout progress, residual gaps, evidence readiness, and timeline risks. It gives leadership a consistent view of whether remediation is on track and where escalation or resourcing is required.
 
 ## Hallucinated writing examples
 
-**Scenario:** In November 2019, approximately four months after the July 2019 breach disclosure and arrest of Paige Thompson **(time)**, the Lead Security Engineer **(role)** is required to submit a security program status report **(type)** to the Security Director and CISO **(audience)**. The report will be used for internal leadership and for early discussions with regulators. It must document what has been done since the incident, current metrics, and remaining gaps—all in the context of the Capital One AWS environment and the upcoming OCC examination.
+**Scenario:** In an illustrative period following the 2019 Capital One cloud breach and related enforcement and litigation tracks **(time)**, the Lead Security Engineer, Cloud Security **(role)** prepares a security program status report **(type)** for Security Director, Chief Information Security Officer **(audience)**.
 
 <div class="writing-example-formal">
 

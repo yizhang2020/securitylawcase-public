@@ -6,13 +6,11 @@
 
 ## Purpose
 
-Support board and audit-committee oversight of the July 2019 cloud breach, OCC consent order ($80M CMP), class settlement, and remediation: incident facts, root causes, regulatory outcomes, and explicit approvals or funding requests. The goal is a defensible narrative consistent with SEC-style governance disclosure and bank supervision expectations.
-
----
+This board brief provides decision-useful context for Capital One 2019: incident and legal background, current security posture, material risk themes, and specific oversight decisions requested from directors. It is designed to help the board evaluate governance adequacy, remediation priority, and reporting cadence across legal, technical, and operational dimensions.
 
 ## Hallucinated writing examples
 
-**Scenario:** One month after the Office of the Comptroller of the Currency (OCC) issued its Consent Order and $80 million civil money penalty (August 6, 2020) **(time)**, the Chief Information Security Officer **(role)** is required to deliver a board security brief **(type)** to the Board Audit Committee **(audience)**. The brief must summarize the July 2019 cybersecurity incident, root causes, regulatory and legal outcomes, and progress against consent order commitments. The audience is the same board that will report to shareholders and the OCC.
+**Scenario:** In an illustrative period following the 2019 Capital One cloud breach and related enforcement and litigation tracks **(time)**, the Chief Information Security Officer **(role)** prepares a board security brief **(type)** for Board Audit Committee **(audience)**.
 
 <div class="writing-example-formal">
 

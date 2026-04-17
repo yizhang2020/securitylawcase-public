@@ -1,44 +1,33 @@
 # Security Program Justification (FTC v. Drizly 2022)
 
-> Justify program scope, resourcing, and structure for CEO and board in light of the FTC consent order.
+> Use this to justify the scope, resourcing, or structure of the security program; supports resource and organizational decisions.
 
 ---
 
 ## Purpose
 
-A brief justification for the board or CEO: why the company needs a comprehensive information security program, designated coordinator, and biennial assessment. Ties to: (1) FTC order requirements; (2) root causes of the breach (program and governance gaps); (3) resource and timeline needs; (4) risk of noncompliance. Use when seeking approval for program scope, headcount, or budget.
-
----
+This justification explains why the scope and structure of the security program are necessary in response to FTC v. Drizly 2022, including capability gaps, risk reduction targets, and resource implications. It supports executive and board approval of sustained program maturity efforts.
 
 ## Hallucinated writing examples
 
-**Scenario:** In November 2022, after the FTC accepted the consent order **(time)**, the CISO **(role)** submits a security program justification **(type)** to the Board Audit Committee **(audience)** to obtain approval for program structure, staffing, and assessment readiness.
+**Scenario:** In an illustrative period following the FTC October 2022 consent order after the July 2020 Drizly breach **(time)**, the Chief Information Security Officer **(role)** prepares a security program justification **(type)** for Chief Executive Officer, Board Audit Committee **(audience)**.
 
 <div class="writing-example-formal">
 
-<p><strong>MEMORANDUM</strong></p>
+<p><strong>SECURITY PROGRAM JUSTIFICATION</strong></p>
 
 <div class="doc-meta">
-<p><strong>To: </strong>Board Audit Committee<br>
+<p><strong>To: </strong>Chief Executive Officer, Board Audit Committee<br>
 <strong>From: </strong>Chief Information Security Officer<br>
-<strong>Date: </strong>November 29, 2022<br>
-<strong>Subject: </strong>Information Security Program Justification — FTC Consent Order Compliance</p>
+<strong>Date: </strong>December 5, 2022<br>
+<strong>Subject: </strong>Security Program Scope, Structure, and Resource Request — Consent Order Program Delivery</p>
 </div>
 
-<p>This memorandum provides the justification for establishing and resourcing a comprehensive information security program consistent with the FTC Decision and Order accepted on October 24, 2022 (FTC Docket No. 2023185). The scenario is illustrative; the obligations described are drawn from the Order.</p>
+<p><strong>Program Mission and Context: </strong>Program mission is to implement and sustain consent-order obligations while reducing recurrence risk from identity, secrets, monitoring, and retention failures identified after the 2020 incident. This requires a durable operating model, not ad hoc remediation.</p>
 
-<p><strong>Why This Is Required: </strong>The Order requires a written information security program with designated coordination, risk assessment, safeguards, training, testing and monitoring, service provider oversight, and biennial independent assessments. These requirements are consistent with the control gaps alleged in the FTC complaint (authentication weaknesses, credential exposure, limited monitoring, and lack of retention discipline).</p>
+<p><strong>Scope and Current State: </strong>Scope includes identity/access governance, secret management, monitoring and incident response, retention/minimization controls, independent assessment readiness, and governance reporting. Current state includes active implementation but constrained capacity for long-term operating effectiveness.</p>
 
-<p><strong>Program Scope (Control Domains): </strong><br>
-1. <strong>IAM: </strong>MFA and access governance for source code and production credentialed access.<br>
-2. <strong>Secrets management: </strong>credential handling standards and continuous scanning to prevent credentials in code.<br>
-3. <strong>Monitoring: </strong>logging coverage, detection for anomalous access and exfiltration, and investigation workflows.<br>
-4. <strong>Data minimization: </strong>retention schedule implementation and deletion/de-identification evidence.<br>
-5. <strong>Assurance: </strong>independent assessment readiness and remediation closure.</p>
-
-<p><strong>Resources Requested: </strong>Approve (1) a designated program coordinator and supporting staff; (2) monitoring and secret-scanning tooling; and (3) an independent assessor engagement and testing budget.</p>
-
-<p><strong>Oversight and Reporting: </strong>Management will report quarterly on MFA coverage, secret-scanning findings and remediation closure, retention schedule compliance, and assessment readiness.</p>
+<p><strong>Gap Analysis and Recommendation: </strong>Gaps remain in evidence automation, exception governance consistency, and assessment-prep throughput. Options considered: (1) Recommended—approve incremental staffing and tooling for sustained order compliance. (2) Minimal—hold current staffing; rejected due to schedule and residual risk pressure. (3) Over-acceleration beyond budget envelope; deferred. We request [X] FTE and [Y] budget with quarterly board and compliance reporting.</p>
 
 </div>
 

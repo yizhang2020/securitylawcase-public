@@ -1,0 +1,79 @@
+{
+  "id": "equifax-breach-2020",
+  "title": "In re Equifax Inc. Customer Data Security Breach Litigation \u2014 MDL, FTC/CFPB, and related actions",
+  "year": 2020,
+  "jurisdiction": "US",
+  "forum": "U.S. District Courts (MDL) / FTC / CFPB / state attorneys general",
+  "regime": [
+    "Consumer MDL",
+    "FTC Section 5",
+    "CFPB enforcement",
+    "State AG coordination"
+  ],
+  "technical_focus": [
+    "Unpatched known vulnerability in web application stack",
+    "Large-scale exposure of credit file and consumer identifiers",
+    "Breach response at national credit bureau scale"
+  ],
+  "legal_issues": [
+    "Unfairness",
+    "Consent orders",
+    "Class settlement",
+    "Consumer redress"
+  ],
+  "industry": [
+    "Consumer reporting / credit bureau"
+  ],
+  "entities": [
+    "Equifax Inc."
+  ],
+  "timeline": [
+    {
+      "date": "2017-09",
+      "event": "Public disclosure of major consumer data breach"
+    },
+    {
+      "date": "2019-07",
+      "event": "FTC and CFPB orders and related public enforcement materials"
+    },
+    {
+      "date": "2020+",
+      "event": "MDL proceedings and consumer settlement implementation (see docket and orders)"
+    }
+  ],
+  "primary_sources": [
+    {
+      "label": "FTC\u2013Equifax stipulated order (PDF)",
+      "url": "https://www.ftc.gov/system/files/documents/cases/equifax/172_3203_equifax_order_signed_7-23-19.pdf",
+      "type": "order"
+    },
+    {
+      "label": "CFPB \u2014 Equifax enforcement action",
+      "url": "https://www.consumerfinance.gov/enforcement/actions/equifax-inc/",
+      "type": "order"
+    }
+  ],
+  "controls_map": {
+    "nist_csf": [
+      "ID.RA",
+      "PR.IP",
+      "PR.PT",
+      "DE.CM"
+    ],
+    "cis_controls": [
+      "2",
+      "3",
+      "7",
+      "8"
+    ]
+  },
+  "evidence_artifacts": [
+    "Vulnerability management records (CVE, patch SLAs)",
+    "Network segmentation and egress monitoring evidence",
+    "Breach notification and call center records"
+  ],
+  "engineering_takeaways": [
+    "Known critical patches missed at scale create regulatory and civil exposure across multiple agencies.",
+    "Credit bureau environments require aggressive patch governance and segmentation testing."
+  ]
+}

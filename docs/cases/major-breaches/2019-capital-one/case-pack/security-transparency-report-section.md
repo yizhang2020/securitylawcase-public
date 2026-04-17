@@ -6,13 +6,11 @@
 
 ## Purpose
 
-Produce a public-facing transparency narrative for a reporting period: incident, regulatory outcomes, remediation, and program highlights—consistent with 10-K and other formal disclosures.
-
----
+This section provides a structured transparency narrative for Capital One 2019, summarizing incident and governance context, program improvements, and measurable control progress for external stakeholders. It is designed for consistent recurring reporting.
 
 ## Hallucinated writing examples
 
-**Scenario:** In March 2021, for the 2020 reporting period and following the July 2019 incident and OCC Consent Order (August 2020) **(time)**, the Chief Information Security Officer **(role)** is asked to draft the security section of the Company's annual trust or transparency report **(type)** for the public and investors **(audience)**. The section must summarize the incident, Consent Order, remediation progress, and commitments—in a form suitable for public disclosure and consistent with 10-K and other filings. The draft will be reviewed by Legal and Communications before publication.
+**Scenario:** In an illustrative period following the 2019 Capital One cloud breach and related enforcement and litigation tracks **(time)**, the Security Director **(role)** prepares a security transparency report section **(type)** for leadership stakeholders **(audience)**.
 
 <div class="writing-example-formal">
 

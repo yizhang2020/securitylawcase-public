@@ -6,13 +6,11 @@
 
 ## Purpose
 
-Obtain approval and budget for a named initiative (e.g., config-as-code and drift detection) that directly addresses the incident root cause and OCC consent order requirements—options, benefits, risks of inaction, and reporting commitments.
-
----
+This document provides the strategic and financial rationale for major security investments required after Capital One 2019, linking legal exposure and operational risk to concrete program outcomes. It is intended to support budget and prioritization decisions with a clear cost-risk-benefit narrative.
 
 ## Hallucinated writing examples
 
-**Scenario:** In November 2020, three months after the OCC Consent Order (August 6, 2020) **(time)**, the Chief Information Security Officer **(role)** must present a business case **(type)** to Executive Leadership and the Board Finance Committee **(audience)** for the Cloud Configuration Governance and Drift Detection initiative. The initiative is a direct response to the July 2019 incident root cause and the Consent Order’s required improvements. The CISO must justify scope, resources, and timeline and obtain approval to execute and report to the OCC.
+**Scenario:** In an illustrative period following the 2019 Capital One cloud breach and related enforcement and litigation tracks **(time)**, the Chief Information Security Officer **(role)** prepares a strategic security initiative justification **(type)** for Executive Leadership, Board Finance Committee **(audience)**.
 
 <div class="writing-example-formal">
 

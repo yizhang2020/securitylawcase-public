@@ -6,13 +6,7 @@
 
 ## Purpose
 
-Following the FTC consent order, this document supports a **compliance justification** that maps the company’s controls to the order’s requirements and, where applicable, to NIST CSF or CIS Controls. It is intended for use by the security or compliance owner when responding to the FTC or an auditor.
-
-**Key order requirements (condensed):** Written information security program; designated coordinator; risk assessment; safeguards (access control, credential management, monitoring, secure development, data minimization); training; testing; service provider oversight; biennial independent assessment; data retention schedule and deletion of unnecessary personal information.
-
-**NIST CSF mapping (illustrative):** PR.AC (Identity Management, Access Control); PR.IP (Protection Processes and Procedures); DE.CM (Security Continuous Monitoring); ID.RA (Risk Assessment); ID.AM (Asset Management). The FTC order does not mandate a specific framework; mapping demonstrates alignment with recognized standards.
-
----
+This mapping document shows how implemented controls satisfy obligations and expectations implicated by FTC v. Drizly 2022. It is structured for audit and legal review, so each requirement is tied to implementation rationale, ownership, and verifiable artifacts rather than policy statements alone.
 
 ## Control-to-order mapping (summary)
 

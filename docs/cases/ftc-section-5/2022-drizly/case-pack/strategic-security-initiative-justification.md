@@ -1,46 +1,35 @@
 # Strategic Security Initiative Justification (FTC v. Drizly 2022)
 
-> Business case for the security program and data minimization initiative required by the FTC consent order.
+> Use this to build a business case for a major security initiative; supports approval, budget, and prioritization under the FTC consent order.
 
 ---
 
 ## Purpose
 
-A brief business case for leadership and board: why the company is investing in the information security program, data minimization, and biennial assessments. Ties consent order obligations to risk reduction, regulatory compliance, and reputational protection.
-
-**Key points:** (1) The FTC order mandates a comprehensive program, retention schedule, and assessments; noncompliance carries enforcement risk. (2) The breach and FTC findings reflect program and governance gaps that the initiative addresses. (3) Resource and timeline expectations (coordinator, MFA rollout, repository scanning, retention schedule, third-party assessment).
-
----
+This document provides the strategic and financial rationale for major security investments required after FTC v. Drizly 2022 and the July 2020 incident, linking the consent order’s program obligations to concrete engineering and assurance outcomes. It is intended to support budget and prioritization decisions with a clear cost-risk-benefit narrative.
 
 ## Hallucinated writing examples
 
-**Scenario:** In November 2022, shortly after the FTC accepted the consent order **(time)**, the CISO **(role)** submits a strategic security initiative justification **(type)** to the Board Audit Committee **(audience)** to obtain approval for resourcing, tooling, and the biennial independent assessment.
+**Scenario:** In an illustrative period following the FTC October 2022 consent order after the July 2020 Drizly breach **(time)**, the Chief Information Security Officer **(role)** prepares a strategic security initiative justification **(type)** for Executive Leadership, Board Finance Committee **(audience)**.
 
 <div class="writing-example-formal">
 
-<p><strong>MEMORANDUM</strong></p>
+<p><strong>STRATEGIC SECURITY INITIATIVE JUSTIFICATION</strong></p>
 
 <div class="doc-meta">
-<p><strong>To: </strong>Board Audit Committee<br>
+<p><strong>To: </strong>Executive Leadership, Board Finance Committee<br>
 <strong>From: </strong>Chief Information Security Officer<br>
 <strong>Date: </strong>November 30, 2022<br>
-<strong>Subject: </strong>Strategic Security Initiative — Program Implementation, Data Minimization, and Independent Assessment</p>
+<strong>Subject: </strong>Business Case — IAM, Secrets, Monitoring, and Data Minimization Program (FTC Docket No. 2023185)</p>
 </div>
 
-<p>This memorandum requests approval for a consolidated security initiative that implements the information security program, data minimization and retention controls, and independent assessment required by the FTC Decision and Order accepted on October 24, 2022 (FTC Docket No. 2023185). The scenario is illustrative; the obligations described are drawn from the Order.</p>
+<p><strong>Initiative Summary: </strong>This document requests approval and budget for a consolidated program to implement the written information security program, MFA and access governance, elimination of credentials from source repositories with continuous secret scanning, centralized logging and detection for exfiltration patterns, and a published data retention schedule with deletion jobs—together satisfying the core operational obligations of the Decision and Order accepted October 24, 2022 (<em>In the Matter of Drizly, LLC, and James Cory Rellas</em>, FTC Docket No. 2023185). Scope includes developer, cloud, and production administration paths; Phase 1 targets 100% MFA for privileged access and zero critical secret-scan findings by January 31, 2023.</p>
 
-<p><strong>Business Rationale: </strong>The July 2020 incident and subsequent FTC action demonstrate that weaknesses in authentication, secrets handling, monitoring, and data retention can convert a single account compromise into enterprise-wide impact. The Order requires a written program, designated leadership responsibility, safeguards and monitoring, a public retention schedule, and biennial independent assessments. This initiative delivers those requirements in an integrated and auditable manner.</p>
+<p><strong>Business and Regulatory Context: </strong>The July 2020 incident affected approximately 2.5 million consumers via compromised GitHub access, credential reuse, lack of MFA, and failure to revoke temporary elevated access. External discovery of data for sale amplified regulatory narrative risk. The FTC alleged unfair practices and deception regarding safeguards. The order also imposes individual obligations on the CEO in future covered roles—raising reputational stakes for demonstrable program execution.</p>
 
-<p><strong>Scope (Control Domains): </strong><br>
-1. <strong>IAM and privileged access: </strong>enforce MFA for source code and credentialed production access; complete access reviews and revocation discipline.<br>
-2. <strong>Secrets management and secure development: </strong>eliminate credentials from repositories; continuous secret scanning and remediation workflow.<br>
-3. <strong>Monitoring and response: </strong>logging coverage, retention, and detection for anomalous access and exfiltration.<br>
-4. <strong>Data minimization and retention: </strong>retention schedule publication; deletion or de-identification controls and evidence generation.<br>
-5. <strong>Assurance: </strong>biennial independent assessment and closure tracking for findings.</p>
+<p><strong>Options Considered: </strong>(1) Integrated program delivery with assessor-ready evidence and quarterly KPIs (recommended). (2) Tooling purchases without workflow and ownership changes: rejected as inconsistent with order expectations and prior 2018 GitHub warning signals. (3) Defer retention minimization until security tooling completes: rejected because the order couples both threads.</p>
 
-<p><strong>Resources and Timeline: </strong>We request approval for (1) an independent assessor and required testing; (2) monitoring and secret-scanning tooling; and (3) implementation staffing to complete the first 90-day milestones and prepare for assessment.</p>
-
-<p><strong>Decision Requested: </strong>Approve the initiative scope and budget and require quarterly reporting on MFA coverage, secret-scanning findings, retention schedule compliance, and assessment readiness.</p>
+<p><strong>Benefits, Resources, and Risks Of Inaction: </strong>Benefits include reduced account-takeover paths, faster detection, defensible retention posture, and biennial assessment readiness. Estimated cost [X]; headcount [Y]; milestones at 90/180/365 days. Risks of inaction: repeat FTC scrutiny, civil litigation leverage, and inability to demonstrate operating effectiveness. We recommend approval of scope, budget, and timeline and authorize the CISO to execute with quarterly reporting to the Board and chief legal officer.</p>
 
 </div>
 

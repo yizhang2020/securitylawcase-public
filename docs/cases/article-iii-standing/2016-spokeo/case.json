@@ -1,0 +1,46 @@
+{
+  "id": "spokeo-robins-2016",
+  "title": "Spokeo, Inc. v. Robins (2016) — Article III Standing and FCRA",
+  "year": 2016,
+  "jurisdiction": "US",
+  "forum": "U.S. Supreme Court",
+  "regime": ["Article III standing", "Fair Credit Reporting Act (FCRA)"],
+  "technical_focus": [
+    "Consumer reporting accuracy",
+    "People-search and profile data",
+    "Data provenance and dispute handling"
+  ],
+  "legal_issues": ["Article III injury-in-fact", "Concreteness", "Particularization", "FCRA private enforcement"],
+  "industry": ["Consumer data / people search"],
+  "entities": ["Spokeo, Inc.", "Thomas Robins"],
+  "timeline": [
+    { "date": "2016-05-16", "event": "Supreme Court decides Spokeo (vacates and remands Ninth Circuit)" }
+  ],
+  "primary_sources": [
+    {
+      "label": "U.S. Reports PDF (LOC)",
+      "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep578/usrep578330/usrep578330.pdf",
+      "type": "opinion"
+    },
+    {
+      "label": "FCRA (Title 15, Chapter 41) — U.S. Code",
+      "url": "https://uscode.house.gov/view.xhtml?path=/prelim@title15/chapter41&edition=prelim",
+      "type": "statute"
+    }
+  ],
+  "controls_map": {
+    "nist_csf": ["PR.DS", "PR.IP", "ID.AM"],
+    "cis_controls": ["3", "14", "16"]
+  },
+  "evidence_artifacts": [
+    "Data lineage documentation for published attributes",
+    "Accuracy testing and QA sampling records",
+    "Consumer dispute logs and resolution SLAs",
+    "Model/source update change control",
+    "Legal review records for marketing claims about accuracy"
+  ],
+  "engineering_takeaways": [
+    "Statutory violations alone may not establish Article III injury; concrete harm still matters in federal court.",
+    "Accuracy-sensitive products need procedural rigor comparable to legal duties for consumer reporting contexts."
+  ]
+}

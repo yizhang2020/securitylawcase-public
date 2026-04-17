@@ -6,13 +6,11 @@
 
 ## Purpose
 
-Provide a defensible, evidence-backed explanation of governance, risk management, control environment, and incident remediation after the breach and consent order—so examiners can assess posture and “evidence of operation.”
-
----
+This explanation frames the organization’s security posture for regulator, examiner, or counsel review in light of Capital One 2019. It connects governance, technical controls, and evidence practices to the relevant legal or enforcement context so external stakeholders can assess control reasonableness and implementation maturity.
 
 ## Hallucinated writing examples
 
-**Scenario:** In December 2020, following the July 2019 incident and the Consent Order (August 6, 2020) **(time)**, the OCC examiner **(audience)** requests a formal written explanation of the Bank’s security posture and control environment following the July 2019 incident and the Consent Order (August 6, 2020). The Chief Information Security Officer **(role)** must submit a regulatory security explanation **(type)** that addresses governance, risk management, control environment, evidence of operation, and the specific incident and remediation. The document will be used in the examination and must be supportable by policies, assessments, and artifacts.
+**Scenario:** In an illustrative period following the 2019 Capital One cloud breach and related enforcement and litigation tracks **(time)**, the Capital One Bank (USA), N.A. — Chief Information Security Officer **(role)** prepares a regulatory security explanation **(type)** for Office of the Comptroller of the Currency (Examiner) **(audience)**.
 
 <div class="writing-example-formal">
 

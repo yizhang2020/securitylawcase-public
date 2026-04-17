@@ -1,47 +1,33 @@
-# Audit Packet Checklist (48-hour evidence readiness) — FTC v. Drizly
+# Audit Packet Checklist (48-hour evidence readiness) — Drizly (FTC 2022)
 
-If examined (FTC, auditor, litigation), produce the following within **48 hours** where applicable.
+If examined (regulator, auditor, litigation), you should be able to produce the following within **48 hours**.
 
----
+## A) Architecture + boundaries
+- Cloud and application architecture diagrams covering customer-data processing paths.
+- Internet-facing API/service inventory with ownership and data classification.
+- Security baseline and exception governance for cloud boundary controls.
 
-## Purpose
+## B) Change control proof
+- Change-management records for secret handling, IAM, and monitoring control updates.
+- Emergency change evidence from remediation windows with follow-up validation.
+- Approval records for high-impact fixes affecting customer-data exposure risk.
 
-Support rapid assembly of evidence aligned with the FTC consent order—program documents, access and credential controls, monitoring, retention, training, and order compliance tracking—for examiner or counsel review.
+## C) IAM least privilege proof
+- Privileged-access inventory for cloud accounts and production services.
+- Access-certification and stale-privilege cleanup evidence.
+- MFA and credential-rotation records for administrative identities.
 
-**Document-type guide:** [Compliance Justification Document](../../../../document-types/regulatory-compliance/compliance-justification-document.md)
+## D) Logging + monitoring proof
+- Telemetry source list (cloud audit logs, app logs, auth logs, data-access logs).
+- Retention configuration and policy evidence for investigative log continuity.
+- Alert definitions and incident-ticket samples for credential/privilege misuse.
 
-**Writing tips:** [Writing best practices — Compliance Justification Document](../../../../studio/writing-best-practices.md#compliance-justification-document)
+## E) Risk management & governance
+- Risk-register artifacts mapping FTC-order obligations to workstreams and owners.
+- Governance reporting for remediation milestones and residual-risk decisions.
+- Independent review artifacts and closure proof for identified gaps.
 
----
-
-## A) Information security program
-- Written information security program document
-- Designation of program coordinator and reporting structure
-- Risk assessment and risk register (relevant entries)
-- Program update and approval records
-
-## B) Access control and credential management
-- MFA enrollment and enforcement evidence (privileged/sensitive accounts)
-- Access review records and offboarding evidence
-- Repository scanning results (no credentials in code)
-- Password or authentication policy
-
-## C) Monitoring and detection
-- Log source inventory and retention policy
-- Detection rules and alert thresholds (e.g., anomalous login, exfiltration)
-- Sample investigation tickets and outcomes
-
-## D) Data minimization and retention
-- Data retention schedule (public or internal)
-- Deletion or de-identification logs
-- Data inventory by purpose and retention period
-
-## E) Training and testing
-- Security training records and content
-- Assessment or test reports (internal or third-party)
-- Biennial independent assessment report (if due)
-
-## F) Consent order compliance
-- Consent order milestone tracking
-- Evidence index mapping controls to order requirements
-- Reporting and recordkeeping produced for FTC upon request
+## F) Incident response readiness
+- IR playbooks for cloud misconfiguration and unauthorized data access events.
+- Forensic preservation procedures and evidence-handling records.
+- Tabletop exercises and lessons-learned tracker for FTC-order readiness.

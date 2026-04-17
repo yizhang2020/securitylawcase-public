@@ -6,13 +6,11 @@
 
 ## Purpose
 
-Document how security governance is structured after the breach and OCC consent order—committees, reporting lines, escalation, and policy ownership—so leadership and examiners can see clear accountability and alignment with supervisory expectations.
-
----
+This memo clarifies governance roles, escalation triggers, and reporting responsibilities needed to manage risks surfaced by Capital One 2019. It ensures that leadership, legal, and security functions operate under a common accountability model.
 
 ## Hallucinated writing examples
 
-**Scenario:** In October 2020, two months after the OCC Consent Order (August 6, 2020) **(time)**, the Chief Information Security Officer **(role)** must issue an internal security governance memo **(type)** to leadership and the OCC examiner **(audience)** that defines roles, committees, escalation paths, and accountability for security. It must align with the Consent Order's governance requirements and the post–July 2019 incident structure.
+**Scenario:** In an illustrative period following the 2019 Capital One cloud breach and related enforcement and litigation tracks **(time)**, the Chief Information Security Officer **(role)** prepares a security governance memo **(type)** for Executive Leadership, Security Leadership, Audit **(audience)**.
 
 <div class="writing-example-formal">
 

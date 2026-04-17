@@ -4,7 +4,14 @@ Cases and enforcement actions related to **SEC cyber disclosure and internal con
 
 ## Status
 
-This section is reserved for SEC disclosure–related cases. As cases are added, they will appear here and in [All cases](../index.md).
+This section lists SEC disclosure–related cases. See also [All cases](../../browse/index.md).
+
+## Cases
+
+| Year | Case |
+|---:|---|
+| 2018 | [In the Matter of Altaba Inc., f/d/b/a Yahoo! Inc. (2018)](2018-altaba-yahoo/) |
+| 2023 | [SEC v. SolarWinds Corp. (2023)](2023-sec-solarwinds/) |
 
 ## Related
 

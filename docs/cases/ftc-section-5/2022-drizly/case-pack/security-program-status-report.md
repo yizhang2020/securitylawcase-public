@@ -1,58 +1,35 @@
 # Security Program Status Report (FTC v. Drizly 2022)
 
-> Program health, metrics, and progress for leadership and consent order reporting.
+> Use this to report program health, key metrics, and progress to leadership; supports consent order execution and CEO attestation readiness.
 
 ---
 
 ## Purpose
 
-A status report that tracks progress against the FTC consent order and the information security program. Typically includes: (1) program elements implemented (coordinator, risk assessment, safeguards, training, testing, data retention); (2) key metrics (e.g., MFA coverage, credential-scan results, retention schedule compliance); (3) open items and target dates; (4) biennial assessment status.
-
-**Metrics aligned with FTC order:** Written program in place; coordinator designated; risk assessment completed; MFA enforced for privileged/sensitive access; no credentials in repositories; retention schedule published and deletion process operating; biennial assessment scheduled or completed.
-
----
+This status report translates the FTC Decision and Order and the July 2020 incident lessons into measurable program execution: IAM, secrets management, detection, data minimization, and biennial assessments. It gives leadership a consistent view of whether remediation is on track and where escalation or resourcing is required.
 
 ## Hallucinated writing examples
 
-**Scenario:** In January 2023, during initial implementation of the FTC consent order **(time)**, a Lead Security Engineer **(role)** submits a security program status report **(type)** to the CISO **(audience)**. The report provides measurable progress against program and data-retention requirements and identifies blockers requiring executive action.
+**Scenario:** In an illustrative period following the FTC October 2022 consent order after the July 2020 Drizly breach **(time)**, the Lead Security Engineer, Cloud Security **(role)** prepares a security program status report **(type)** for Security Director, Chief Information Security Officer **(audience)**.
 
 <div class="writing-example-formal">
 
 <p><strong>SECURITY PROGRAM STATUS REPORT</strong></p>
 
 <div class="doc-meta">
-<p><strong>To: </strong>Chief Information Security Officer<br>
-<strong>From: </strong>Lead Security Engineer<br>
+<p><strong>To: </strong>Security Director, Chief Information Security Officer<br>
+<strong>From: </strong>Lead Security Engineer, Cloud Security<br>
 <strong>Date: </strong>January 10, 2023<br>
-<strong>Re: </strong>Status Report — Information Security Program and FTC Consent Order Readiness</p>
+<strong>Reporting period: </strong>Post–Decision and Order (November 2022–January 2023)</p>
 </div>
 
-<p>This report summarizes implementation status for the information security program and data minimization obligations required by the FTC Decision and Order (FTC Docket No. 2023185). The scenario is illustrative; the obligations reflected below derive from the Order.</p>
+<p><strong>Overview: </strong>This report summarizes security program status following the July 2020 incident affecting approximately 2.5 million consumers and the Decision and Order accepted by the Federal Trade Commission on October 24, 2022 (<em>In the Matter of Drizly, LLC, and James Cory Rellas</em>, FTC Docket No. 2023185). The FTC alleged unfair practices and deception regarding safeguards; the order requires a comprehensive information security program, data minimization and a retention schedule, biennial independent assessments, and individual obligations for the CEO in future covered roles. This report covers IAM and credential management, secrets and secure development, monitoring and detection, data minimization, and assessment readiness.</p>
 
-<p><strong>1) Program governance</strong> (order requirement)<br>
-Program coordinator: Designated; reporting line documented. Status: complete.<br>
-Written program: Draft finalized for executive approval. Status: in progress. Blocker: approval scheduling.</p>
+<p><strong>Incident Context: </strong>The attack path described in public materials involved compromised credentials and access to source and cloud administration, with delayed internal detection relative to external reporting. Remediation has prioritized MFA enforcement, elimination of credentials in repositories, access reviews, and expanded logging for anomalous access and exfiltration.</p>
 
-<p><strong>2) IAM and credential management</strong><br>
-MFA enforcement (source code and production credentials): Status: in progress. Metric: 92% enrolled; enforcement targeted for Jan 31.<br>
-Access review / offboarding: Status: in progress. Metric: 100% privileged accounts reviewed; remediation of 3 stale accounts pending.</p>
+<p><strong>Metrics and Progress: </strong>During the reporting period we have: (1) Achieved approximately 92% MFA enrollment for in-scope developer and production administration accounts (target 100% by January 31, 2023). (2) Maintained zero open critical findings from secret scanning; two medium findings under remediation with due dates. (3) Onboarded roughly 85% of critical systems to centralized logging with a drafted retention standard (target 95%). (4) Published an internal data retention schedule draft; first deletion run completed on schedule for pilot categories. (5) Initiated biennial independent assessment procurement with draft scope aligned to the order.</p>
 
-<p><strong>3) Secrets management and secure development</strong><br>
-No credentials in repositories: Status: in progress. Metric: secret scanning enabled; 0 open critical findings; 2 medium findings under remediation.<br>
-Change control for high-risk settings: Status: in progress.</p>
-
-<p><strong>4) Monitoring and detection</strong><br>
-Logging coverage and retention: Status: in progress. Metric: 85% of critical systems onboarded; retention policy drafted.<br>
-Exfiltration/anomalous access detection: Status: planned (February rollout).</p>
-
-<p><strong>5) Data minimization and retention</strong><br>
-Retention schedule: Draft published internally; external publication queued. Status: in progress.<br>
-Deletion/de-identification process: Status: in progress. Metric: first deletion run scheduled Jan 20.</p>
-
-<p><strong>6) Independent assessment</strong> (biennial)<br>
-Assessor selection and scope: Status: in progress. Next step: finalize SOW and timeline.</p>
-
-<p><strong>Requests For Action: </strong>Approve the written program and retention schedule publication; confirm budget for assessment and monitoring enhancements.</p>
+<p><strong>Issues and Next Period: </strong>Residual gaps include planned February rollout for advanced exfiltration detections and completion of external publication steps for the retention schedule. Priorities: close MFA gaps, finish logging onboarding, finalize assessor SOW, and present operating-effectiveness evidence plan to leadership. This report supports internal oversight and consent order milestones.</p>
 
 </div>
 

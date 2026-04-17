@@ -6,13 +6,11 @@
 
 ## Purpose
 
-Help affected customers understand what happened, what data was involved, what the company is doing, and what they can do—consistent with public disclosure and notification obligations after the July 2019 incident.
-
----
+This explanation translates technical and legal context from Capital One 2019 into clear customer-facing language, focusing on what happened, what protections are in place, and what customers should do. It supports transparent communication while remaining aligned with counsel-reviewed facts.
 
 ## Hallucinated writing examples
 
-**Scenario:** On July 29, 2019, the same day the Company publicly discloses the breach and the FBI arrests the individual responsible **(time)**, the Chief Information Security Officer **(role)** is asked to draft the formal customer notice **(type)** for affected customers **(audience)** that will be used for breach notification and the dedicated incident webpage. The notice must be accurate, aligned with the public statement and legal/compliance requirements, and written in plain language for affected customers in the United States and Canada. It will be reviewed by Legal and Communications before publication.
+**Scenario:** In an illustrative period following the 2019 Capital One cloud breach and related enforcement and litigation tracks **(time)**, the Security Director **(role)** prepares a customer security explanation **(type)** for leadership stakeholders **(audience)**.
 
 <div class="writing-example-formal">
 

@@ -6,13 +6,11 @@
 
 ## Purpose
 
-Mandate immediate, measurable actions on cloud perimeter and boundary controls after the breach—deadlines, owners, and escalation—so the organization can show leadership commitment and a compliance trail for regulators and the board.
-
----
+This directive establishes mandatory internal actions and timelines required to address risks and obligations associated with Capital One 2019. It is intended to create clear operational expectations, ownership, and enforcement posture across relevant teams.
 
 ## Hallucinated writing examples
 
-**Scenario:** In September 2019, approximately six weeks after the July 2019 breach disclosure and the arrest of the individual responsible **(time)**, the Chief Information Security Officer **(role)** issues an internal security directive **(type)** to the Board and Bank leadership **(audience)** mandating immediate controls for cloud perimeter configuration. The directive is issued during the incident response and regulatory scrutiny; it is intended to prevent recurrence and to demonstrate to the Board and future regulators that the Bank has mandated specific, measurable actions. The directive will be tracked for compliance and may be referenced in OCC or legal process.
+**Scenario:** In an illustrative period following the 2019 Capital One cloud breach and related enforcement and litigation tracks **(time)**, the Security Director **(role)** prepares a internal security directive **(type)** for leadership stakeholders **(audience)**.
 
 <div class="writing-example-formal">
 

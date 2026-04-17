@@ -1,39 +1,33 @@
 # Customer Security Explanation (FTC v. Drizly 2022)
 
-> Explain the incident and the company’s response to affected customers. Not an official Drizly notice; for reference and structure only.
+> Use this to explain a security topic or incident to customers in clear, non-technical language; supports notification obligations and trust.
 
 ---
 
 ## Purpose
 
-A template for customer notification after a data breach: what happened, what personal information was involved, what steps the company has taken (secure systems, notify regulators, cooperate with law enforcement), what the company is offering (e.g., credit monitoring, identity protection if applicable), and what customers should do (review accounts, consider fraud alerts, contact support). Align tone with FTC expectations: accurate, not deceptive; avoid overstating security measures that were not in place at the time of the breach.
-
----
+This explanation translates technical and legal context from FTC v. Drizly 2022 into clear customer-facing language, focusing on what happened, what protections are in place, and what customers should do. It supports transparent communication while remaining aligned with counsel-reviewed facts.
 
 ## Hallucinated writing examples
 
-**Scenario:** In July 2020, shortly after the Company confirmed unauthorized access **(time)**, the Security Director **(role)** drafts a customer security explanation **(type)** for the CISO **(audience)** to approve prior to distribution to affected consumers.
+**Scenario:** In an illustrative period following the FTC October 2022 consent order after the July 2020 Drizly breach **(time)**, the Security Director **(role)** prepares a customer security explanation **(type)** for leadership stakeholders **(audience)**.
 
 <div class="writing-example-formal">
 
-<p><strong>DRAFT CUSTOMER NOTICE — SECURITY INCIDENT</strong></p>
+<p><strong>CUSTOMER NOTICE — DATA SECURITY INCIDENT</strong></p>
 
 <div class="doc-meta">
-<p><strong>To: </strong>Chief Information Security Officer<br>
-<strong>From: </strong>Security Director<br>
-<strong>Date: </strong>July 20, 2020<br>
-<strong>Re: </strong>Draft Customer Communication — Security Incident and Recommended Actions</p>
+<p><strong>Date: </strong>December 7, 2022<br>
+<strong>Subject: </strong>Important information about Drizly security incident response and customer support</p>
 </div>
 
-<p>We are writing to provide notice of a security incident involving unauthorized access to certain Company systems and potential access to consumer information. The investigation remains ongoing; this draft is intended for factual communication and does not state legal conclusions.</p>
+<p><strong>What Happened: </strong>The 2020 incident involved unauthorized access linked to compromised credentials and subsequent access to customer data. Drizly has implemented corrective actions and continues to enhance controls under compliance commitments.</p>
 
-<p><strong>What Happened: </strong>We identified unauthorized access to certain systems and are investigating the scope and timing. We initiated containment and engaged external cybersecurity specialists.</p>
+<p><strong>What Information Was Involved: </strong>Affected information involved customer account-related data categories previously disclosed in incident communications. Drizly continues to support affected users through dedicated channels.</p>
 
-<p><strong>What Information May Be Involved: </strong>Depending on the account, information may include contact information and account details. We will provide supplemental details as the investigation confirms specific data elements.</p>
+<p><strong>What We Are Doing: </strong>We are strengthening identity controls, secret-management practices, monitoring, and retention governance, and we are tracking progress through formal oversight and assessment processes.</p>
 
-<p><strong>What We Are Doing: </strong>We have secured affected systems, are strengthening authentication and credential handling, and are increasing monitoring for anomalous activity. We are also reviewing data retention and minimization practices to reduce future exposure.</p>
-
-<p><strong>What You Can Do: </strong>We recommend that you use unique, strong passwords for online accounts, remain vigilant for phishing or suspicious communications, and monitor your accounts for unauthorized activity. If you have questions, please contact our support team at [support contact].</p>
+<p><strong>What You Can Do: </strong>Monitor your account, use available security protections, and rely on official Drizly channels for updates. Additional support resources are available at [URL].</p>
 
 </div>
 

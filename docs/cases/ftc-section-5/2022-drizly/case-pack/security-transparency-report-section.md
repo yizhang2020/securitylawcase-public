@@ -1,35 +1,35 @@
-# Security Transparency Report Section (FTC v. Drizly 2022)
+# Security Transparency Report Section (FTC v. Drizly (2022))
 
-> Section for an annual or ad-hoc transparency report: incident summary, program improvements, and consent order compliance (high level).
+> Use this to draft a section for an annual or ad-hoc transparency report covering security: requests received, incidents, and program highlights; supports accountability and stakeholder trust.
 
 ---
 
 ## Purpose
 
-A short section suitable for a transparency or trust report: (1) summary of the July 2020 incident (unauthorized access and exfiltration; discovery via external reports); (2) regulatory outcome (FTC consent order, no monetary penalty); (3) program improvements (information security program, MFA, credential management, data retention schedule, biennial assessment). Keep high level; avoid legal conclusions. Demonstrates accountability and progress to customers and partners.
-
----
+This section provides a structured transparency narrative for FTC v. Drizly (2022), summarizing incident and governance context, program improvements, and measurable control progress for external stakeholders. It is designed for consistent recurring reporting.
 
 ## Hallucinated writing examples
 
-**Scenario:** In March 2023, after initial implementation of the FTC consent order **(time)**, the CISO **(role)** submits a security transparency report section **(type)** to the Board Audit Committee **(audience)** for review prior to publication as part of a trust report.
+**Scenario:** In an illustrative period after the FTC consent order addressing Drizly security-program deficiencies **(time)**, the Security Director **(role)** prepares a security transparency report section **(type)** for leadership stakeholders **(audience)**.
 
 <div class="writing-example-formal">
 
-<p><strong>DRAFT TRANSPARENCY REPORT — SECURITY SECTION</strong></p>
+<p><strong>SECURITY — TRANSPARENCY REPORT SECTION (DRAFT)</strong></p>
 
 <div class="doc-meta">
-<p><strong>To: </strong>Board Audit Committee<br>
-<strong>From: </strong>Chief Information Security Officer<br>
-<strong>Date: </strong>March 15, 2023<br>
-<strong>Subject: </strong>Trust Report Draft — Security Incident Summary and Program Improvements</p>
+<p><strong>Reporting period: </strong>January 1, 2023 – December 31, 2023<br>
+<strong>Scope: </strong>E-commerce customer data security and FTC order implementation<br>
+<strong>Prepared for: </strong>Annual Trust / Transparency Report<br>
+<strong>Date: </strong>March 2024</p>
 </div>
 
-<p><strong>Incident Summary (July 2020): </strong>In July 2020, an attacker gained unauthorized access to certain Company systems and exfiltrated consumer personal information. The Company did not detect the incident internally and learned of it through external reporting that data was offered for sale online.</p>
+<p><strong>Overview: </strong>This transparency section summarizes security-program implementation status, incident context, and order-aligned governance activity for external stakeholders.</p>
 
-<p><strong>Regulatory Outcome (October 2022): </strong>In October 2022, the FTC announced an administrative action and a consent order requiring the Company to implement a comprehensive information security program, adopt and publish a data retention schedule, obtain biennial independent assessments, and maintain reporting and recordkeeping for compliance.</p>
+<p><strong>Material Cybersecurity Incident: </strong>The July 2020 incident involved unauthorized access associated with compromised credentials and insufficient controls. During this reporting period, implementation work remained focused on reducing recurrence risk and strengthening operational discipline.</p>
 
-<p><strong>Security Program Improvements: </strong>Since the incident and in connection with the Order, the Company has implemented program and control enhancements focused on (1) authentication and access governance, including multifactor authentication for sensitive access; (2) improved credential handling and repository scanning to prevent secrets exposure; (3) monitoring for anomalous access and exfiltration; and (4) data minimization and retention practices to reduce unnecessary personal information storage.</p>
+<p><strong>Regulatory and Legal Outcomes: </strong>The FTC consent order established specific governance and program obligations. We continue implementing and tracking those requirements through coordinated Legal, Compliance, and Security oversight and routine evidence development.</p>
+
+<p><strong>Program Highlights (2023): </strong>Highlights include credential and secret-management hardening, enhanced access governance, expanded logging and retention controls, and structured third-party and internal assurance reviews. We continue recurring management reporting on milestone completion and residual risk. References: [FTC order], [Company security page]. For questions: [contact].</p>
 
 </div>
 

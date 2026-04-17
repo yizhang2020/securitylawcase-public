@@ -1,0 +1,62 @@
+{
+  "id": "van-buren-2021",
+  "title": "Van Buren v. United States (2021) \u2014 CFAA",
+  "year": 2021,
+  "jurisdiction": "US",
+  "forum": "U.S. Supreme Court",
+  "regime": [
+    "Computer Fraud and Abuse Act (CFAA)"
+  ],
+  "technical_focus": [
+    "Authorized access with improper purpose",
+    "Law enforcement database queries",
+    "Contract and policy boundaries for system use"
+  ],
+  "legal_issues": [
+    "CFAA \"exceeds authorized access\"",
+    "Criminal and civil risk framing"
+  ],
+  "industry": [
+    "Government",
+    "Enterprise IT"
+  ],
+  "entities": [
+    "United States (prosecution)",
+    "Van Buren (defendant)"
+  ],
+  "timeline": [
+    {
+      "date": "2021-06",
+      "event": "Supreme Court narrows CFAA \u201cexceeds authorized access\u201d for misuse of authorized access"
+    }
+  ],
+  "primary_sources": [
+    {
+      "label": "Supreme Court slip opinion (PDF)",
+      "url": "https://www.supremecourt.gov/opinions/20pdf/19-783_k53l.pdf",
+      "type": "opinion"
+    }
+  ],
+  "controls_map": {
+    "nist_csf": [
+      "PR.AC",
+      "PR.AT",
+      "DE.CM"
+    ],
+    "cis_controls": [
+      "1",
+      "3",
+      "5",
+      "14"
+    ]
+  },
+  "evidence_artifacts": [
+    "Access control policies and role definitions",
+    "Audit logs for sensitive databases",
+    "Training acknowledgments for acceptable use"
+  ],
+  "engineering_takeaways": [
+    "Technical \u201cauthorized\u201d access may still be criminally charged under other theories; align policy, contracts, and monitoring.",
+    "Post-Van Buren, CFAA \u201cexceeds authorized access\u201d is narrower for pure policy/ purpose violations\u2014update insider-threat playbooks with counsel."
+  ]
+}

@@ -6,13 +6,11 @@
 
 ## Purpose
 
-Request executive and board approval for program scope, structure, and resources needed to meet consent order commitments and reduce residual regulatory and litigation risk after the breach.
-
----
+This justification explains why the scope and structure of the security program are necessary in response to Capital One 2019, including capability gaps, risk reduction targets, and resource implications. It supports executive and board approval of sustained program maturity efforts.
 
 ## Hallucinated writing examples
 
-**Scenario:** In November 2020, following the July 2019 incident, the OCC Consent Order (August 6, 2020), and the consumer class-action settlement **(time)**, the Chief Information Security Officer **(role)** must present a security program justification **(type)** to the CEO and Board Audit Committee **(audience)** for FY 2021. The justification must tie directly to the incident, Consent Order, and settlement. The CISO must explain why the program's scope, structure, and resourcing are adequate to meet Consent Order commitments and reduce regulatory and legal risk, and request approval for additional headcount and budget.
+**Scenario:** In an illustrative period following the 2019 Capital One cloud breach and related enforcement and litigation tracks **(time)**, the Chief Information Security Officer **(role)** prepares a security program justification **(type)** for Chief Executive Officer, Board Audit Committee **(audience)**.
 
 <div class="writing-example-formal">
 

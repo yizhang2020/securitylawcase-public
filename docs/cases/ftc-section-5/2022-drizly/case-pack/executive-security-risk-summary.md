@@ -1,51 +1,35 @@
 # Executive Security Risk Summary (FTC v. Drizly 2022)
 
-> Consolidated security risks and mitigation for executives following the FTC consent order.
+> Use this to present a consolidated view of security risks and mitigation to executives; supports risk acceptance and resource decisions after an FTC consent order.
 
 ---
 
 ## Purpose
 
-A one- to two-page summary for the CEO and leadership that distills material security risks, root causes from the breach and FTC findings, and mitigation status. Use when briefing executives on consent order compliance and program priorities.
-
-**Risks to highlight (aligned with FTC complaint and order):** (1) Access control and credential management — inadequate MFA, credentials in code, stale access. (2) Monitoring and detection — failure to detect exfiltration and anomalous access. (3) Data minimization — retention of personal information beyond necessity. (4) Security program maturity — lack of written program, designated ownership, and follow-through after prior incident.
-
-**Mitigation summary:** Implement written program with designated coordinator; enforce MFA and eliminate credentials from repositories; deploy monitoring and retention schedule; complete biennial independent assessment and report to FTC.
-
----
+This executive summary consolidates the highest-priority security and legal risks arising from FTC v. Drizly 2022, with impact framing, mitigation status, and near-term decision points for senior leadership. It supports cross-functional alignment among security, legal, finance, and operations on risk treatment and accountability.
 
 ## Hallucinated writing examples
 
-**Scenario:** In December 2022, following the FTC’s consent order **(time)**, the Security Director **(role)** provides an executive security risk summary **(type)** to the Board Audit Committee **(audience)**. The summary focuses on the material control gaps alleged by the FTC and the remediation plan and evidence required for compliance.
+**Scenario:** In an illustrative period following the FTC October 2022 consent order after the July 2020 Drizly breach **(time)**, the Security Director, Technology Risk **(role)** prepares an executive security risk summary **(type)** for Chief Executive Officer, Chief Risk Officer **(audience)**.
 
 <div class="writing-example-formal">
 
 <p><strong>EXECUTIVE SECURITY RISK SUMMARY</strong></p>
 
 <div class="doc-meta">
-<p><strong>To: </strong>Board Audit Committee<br>
-<strong>From: </strong>Security Director<br>
+<p><strong>To: </strong>Chief Executive Officer, Chief Risk Officer<br>
+<strong>From: </strong>Security Director, Technology Risk<br>
 <strong>Date: </strong>December 5, 2022<br>
-<strong>Subject: </strong>Security Risk Summary — FTC Consent Order Compliance and Residual Risk</p>
+<strong>Subject: </strong>Consolidated Security Risk Summary — FTC Decision and Order (Docket No. 2023185); Post–July 2020 Incident</p>
 </div>
 
-<p>This summary identifies the Company’s principal cybersecurity risks and remediation status following the FTC’s Decision and Order accepted on October 24, 2022. The scenario described below is illustrative; the underlying facts and obligations are based on the FTC Complaint and Decision and Order in FTC Docket No. 2023185.</p>
+<p><strong>Executive Summary: </strong>Cyber risk posture remains elevated following the July 2020 incident affecting approximately 2.5 million consumers and the Decision and Order accepted by the Federal Trade Commission on October 24, 2022 (<em>In the Matter of Drizly, LLC, and James Cory Rellas</em>, FTC Docket No. 2023185). The FTC alleged unfair practices (failure to implement reasonable security) and deception (misrepresentations regarding safeguards). The order requires a comprehensive information security program, data minimization and a retention schedule, biennial independent assessments, and—for the CEO—individual obligations in future roles at covered companies. Top risks below are explicitly tied to the complaint’s themes and to root causes emphasized in public materials (credential reuse, secrets in repositories, weak MFA, delayed detection).</p>
 
-<p><strong>Top Risks (Current): </strong></p>
-<p>1. <strong>Identity and Access Management (IAM): </strong>Elevated risk from weak authentication practices for source code and credentialed access (e.g., missing MFA, weak/reused credentials, incomplete access revocation).<br>
-2. <strong>Secrets and Credential Management: </strong>Elevated risk if credentials are stored in repositories or otherwise insufficiently controlled, enabling rapid escalation from developer access to production access.<br>
-3. <strong>Detection and Response: </strong>Elevated risk from incomplete monitoring for anomalous access and data exfiltration, with delayed discovery driven by external reporting.<br>
-4. <strong>Data Minimization and Retention: </strong>Elevated risk from retaining personal information beyond necessity and lacking an enforced retention schedule, increasing breach impact and compliance exposure.<br>
-5. <strong>Program Governance and Assurance: </strong>Elevated risk from insufficiently documented program ownership, risk assessment, and independent validation, which are required for compliance.</p>
+<p><strong>Risk Landscape: </strong>Our risk categories align to the consent order’s program elements and to the technical failure mode in the incident: (1) Identity, access, and credential management—MFA, offboarding, and privileged access to source and production. (2) Secrets and secure development—eliminating credentials in repositories and continuous scanning. (3) Detection and response—monitoring for anomalous access and exfiltration; the company initially learned of the breach from external reporting. (4) Data minimization and retention—limiting collection and deleting unnecessary personal information. (5) Assurance—biennial independent assessments and evidence of operation.</p>
 
-<p><strong>Mitigation Status and Near-Term Commitments (90 Days): </strong></p>
-<p>- Implement and operate a documented information security program with a designated coordinator, risk assessment, safeguards, and training.<br>
-- Enforce MFA for accounts with access to source code and production credentials; complete access reviews and timely offboarding.<br>
-- Eliminate credentials from source repositories and maintain continuous scanning and remediation.<br>
-- Operate a retention schedule with deletion or de-identification evidence for personal information that is no longer necessary.<br>
-- Engage an independent assessor and establish a remediation closure process for any findings.</p>
+<p><strong>Top Risks (Abbreviated): </strong>(1) <em>IAM and MFA gaps for developer and cloud administration paths.</em> High impact; enabled account takeover and rapid escalation to production. Mitigation: enforce MFA, access reviews, and PAM patterns; target coverage milestones per quarterly reporting. (2) <em>Secrets in source repositories.</em> High impact; directly implicated in the attack path. Mitigation: pipeline blocking, secret scanning, exception governance with expiry. (3) <em>Detection latency.</em> Medium–high; external discovery increases regulatory and litigation narrative risk. Mitigation: detection engineering backlog tied to crown-jewel data flows. (4) <em>Retention and minimization noncompliance.</em> Medium–high; order mandates a published schedule and deletion discipline. Mitigation: data inventory, retention jobs with evidence.</p>
 
-<p><strong>Board Oversight Requests: </strong>Approve the program framework and assessment budget, and require quarterly reporting on MFA coverage, secret-scanning results, retention schedule compliance, and assessment readiness.</p>
+<p><strong>Gaps and Initiatives: </strong>Key gaps: independent validation of control operating effectiveness; closure discipline for assessment findings; alignment of risk register to order milestones. Initiatives: executive dashboard for MFA coverage, secret-scanning open issues, and assessment readiness. We request risk acceptance for limited-duration vendor access exceptions with revisit March 2023, budget approval for SIEM and assessment line items per the approved remediation plan, and metrics for the next executive review on MFA enrollment, mean time to revoke access, and retention-schedule compliance sampling.</p>
 
 </div>
 

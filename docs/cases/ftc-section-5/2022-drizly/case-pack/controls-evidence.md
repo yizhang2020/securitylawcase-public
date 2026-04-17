@@ -2,11 +2,11 @@
 
 ## Purpose
 
-Provide a technical control-to-evidence appendix that a Lead Security Engineer can submit to the CISO (and that the CISO can attach to FTC or auditor responses) to demonstrate implementation status, operating effectiveness, and evidence readiness against the consent order in FTC Docket No. 2023185.
+This technical appendix maps controls to objective evidence for FTC v. Drizly 2022, enabling rapid substantiation of implementation and operating effectiveness. It is used by security, compliance, and legal teams to demonstrate what is deployed, how it is monitored, and what records support examiner or litigation requests.
 
 ## Hallucinated writing examples
 
-**Scenario:** In January 2023, during initial implementation of the FTC Decision and Order **(time)**, a Senior Lead Security Engineer **(role)** submits a Controls -> Evidence Map **(type)** to the CISO and compliance leadership **(audience)** for use as a technical appendix supporting consent order compliance and examination readiness. The document emphasizes implementation proof: required control state, evidence artifacts, and measurable verification signals aligned with the complaint and order.
+**Scenario:** In an illustrative period following the FTC October 2022 consent order after the July 2020 Drizly breach **(time)**, the Senior Lead Security Engineer **(role)** prepares a controls to evidence map **(type)** for Chief Information Security Officer; Compliance Program Owner **(audience)**.
 
 <div class="writing-example-formal">
 

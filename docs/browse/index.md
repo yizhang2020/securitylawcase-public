@@ -15,7 +15,17 @@ Cases with full write-ups; proofreading in progress.
 
 | Year | Case | Regime | Technical focus |
 |---:|---|---|---|
+| 2006 | [ChoicePoint, Inc. (2006) — FTC Data Security Enforcement and Consumer Redress](../cases/ftc-section-5/2006-choicepoint/) | FTC Section 5, FCRA | Data broker breach, inadequate access controls and customer vetting |
+| 2014 | [In re Target Corp. Customer Data Security Breach Litigation (2014) — MDL and Eighth Circuit](../cases/major-breaches/2014-target/) | Consumer class litigation (D. Minn. / 8th Cir.) | Retail payment environments, MDL pleading and class certification, Evidence and logging readiness |
+| 2015 | [FTC v. Wyndham Worldwide Corp. (2015) — Section 5 Cybersecurity and Third Circuit Affirmance](../cases/ftc-section-5/2015-wyndham/) | FTC Section 5 (Unfairness) — appellate | Payment card data, Franchise/property connectivity, Segmentation, PCI-oriented assessments |
+| 2016 | [Spokeo, Inc. v. Robins (2016) — Article III Standing and FCRA](../cases/article-iii-standing/2016-spokeo/) | U.S. Supreme Court — Article III standing | Consumer report accuracy, People-search data, Concrete and particularized injury |
+| 2018 | [In the Matter of Altaba Inc., f/d/b/a Yahoo! Inc. (2018) — SEC Cybersecurity Disclosure](../cases/sec-disclosure/2018-altaba-yahoo/) | SEC disclosure and internal controls | Delayed breach disclosure, Disclosure controls, Materiality and incident escalation |
+| 2018 | [In re Yahoo! Inc. Customer Data Security Breach Litigation (2018) — MDL](../cases/major-breaches/2018-yahoo-mdl/) | Consumer class litigation / MDL (N.D. Cal.) | Standing and pleading in account data breach actions, Class certification themes |
+| 2020 | [In re Equifax Inc. Customer Data Security Breach Litigation — MDL, FTC/CFPB, and related actions](../cases/major-breaches/2020-equifax/) | MDL, FTC, CFPB | Unpatched vulnerability, Credit bureau breach, Multi-agency orders and consumer redress |
+| 2021 | [Van Buren v. United States (2021) — CFAA](../cases/cfaa/2021-van-buren/) | U.S. Supreme Court — CFAA | “Exceeds authorized access” narrowed; Misuse of authorized access for improper purpose |
+| 2021 | [Firemen’s Retirement System of St. Louis v. Sorenson (2021) — Delaware Chancery (Marriott / Starwood)](../cases/delaware-chancery/2021-firemen-sorenson-marriott/) | Delaware Chancery — derivative oversight | Starwood reservation database breach, M&A cyber diligence, Board oversight |
 | 2022 | [FTC v. Drizly, LLC (2022) — Credential Stuffing and Reasonable Security](../cases/ftc-section-5/2022-drizly/) | FTC Section 5 (Unfairness) | Credential stuffing, Account takeover, Excessive data retention |
+| 2023 | [SEC v. SolarWinds Corp. (2023) — Cyber disclosure and internal controls (dismissed 2025)](../cases/sec-disclosure/2023-sec-solarwinds/) | SEC enforcement (S.D.N.Y.) | Supply chain (SUNBURST), Cyber disclosures and internal controls, Public statements vs. assessments |
 
 ## In progress — next
 
@@ -23,7 +33,6 @@ Cases planned next; write-ups in progress.
 
 | Year | Case | Regime | Technical focus |
 |---:|---|---|---|
-| 2006 | ChoicePoint, Inc. — FTC enforcement, stipulated judgment | FTC Section 5, FCRA | Data broker breach, inadequate access controls and customer vetting |
 | 2020 | In the Matter of Zoom Video Communications, Inc. | FTC Section 5 (Deception, Unfairness) | Misrepresentation of encryption (e.g., "end-to-end"); unencrypted storage of recordings; undisclosed software installation; inadequate security program |
 
 ## Incoming case analysis
@@ -32,15 +41,6 @@ The following are planned. Same chronological order and columns as above.
 
 | Year | Case | Regime | Technical focus |
 |---:|---|---|---|
-| 2014 | In re Target Corp. Customer Data Security Breach Litigation | Consumer and financial-institution class litigation (D. Minn. / 8th Cir.) | Payment card breach, POS intrusion; standing and breach-cost theories |
-| 2015 | FTC v. Wyndham Worldwide Corp. | FTC Section 5 (Unfairness) — appellate | Unfair practice; failure to maintain reasonable cybersecurity; repeated breaches; basic safeguards |
-| 2016 | Spokeo, Inc. v. Robins | U.S. Supreme Court — Article III standing | Statutory violation alone insufficient; concrete and particularized injury required; affects cyber class actions |
-| 2018 | In the Matter of Altaba Inc., f/d/b/a Yahoo! Inc. (SEC v. Yahoo!) | SEC disclosure enforcement | Delayed and misleading breach disclosure; material risks and incidents; disclosure controls |
-| 2018 | In re Yahoo! Data Breach Litigation | Consumer class action / MDL | Standing and class certification post-breach; concrete harm or substantial risk; identity theft risk, mitigation costs |
-| 2020 | In re Equifax Inc. Customer Data Security Breach Litigation; SEC v. Equifax, Inc. | MDL, FTC/CFPB/state, SEC securities | Unpatched vulnerability; credit bureau breach; cybersecurity disclosures misled investors; disclosure failures |
-| 2021 | Van Buren v. United States | U.S. Supreme Court — CFAA | "Exceeds authorized access" narrowed; misuse of authorized access for improper purpose not CFAA violation |
-| 2021 | Firemen’s Retirement System of St. Louis v. Sorenson (Marriott) | Delaware Chancery — board oversight / derivative | Starwood reservation database breach; acquisition diligence, Caremark |
-| 2023 | SEC v. SolarWinds Corp. | SEC securities and cyber-disclosure (S.D.N.Y.; dismissed 2025) | Supply chain (SUNBURST); adequacy of cyber disclosures and internal controls; public statements vs. weaknesses |
 
 
 ## Taxonomy

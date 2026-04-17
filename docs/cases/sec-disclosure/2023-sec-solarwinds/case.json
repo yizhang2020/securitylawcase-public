@@ -1,0 +1,87 @@
+{
+  "id": "sec-solarwinds-2023",
+  "title": "SEC v. SolarWinds Corp. (2023) \u2014 Cyber disclosure and internal controls (dismissed 2025)",
+  "year": 2023,
+  "jurisdiction": "US",
+  "forum": "U.S. District Court (S.D.N.Y.) / SEC Division of Enforcement",
+  "regime": [
+    "SEC enforcement",
+    "Securities fraud",
+    "Internal control disclosures"
+  ],
+  "technical_focus": [
+    "Supply chain compromise (SUNBURST)",
+    "Security representations vs. known weaknesses",
+    "Public statements, periodic reports, and incident disclosure"
+  ],
+  "legal_issues": [
+    "Antifraud provisions",
+    "Reporting and internal controls",
+    "Officer conduct"
+  ],
+  "industry": [
+    "Enterprise software"
+  ],
+  "entities": [
+    "SolarWinds Corp.",
+    "Timothy G. Brown"
+  ],
+  "timeline": [
+    {
+      "date": "2020-12",
+      "event": "Public disclosure of SUNBURST supply chain incident affecting SolarWinds customers"
+    },
+    {
+      "date": "2023-10",
+      "event": "SEC files civil enforcement action in S.D.N.Y."
+    },
+    {
+      "date": "2024-07",
+      "event": "District court decision on motion to dismiss (reported at 741 F. Supp. 3d 37)"
+    },
+    {
+      "date": "2025-11",
+      "event": "SEC files joint stipulation dismissing action with prejudice (Litigation Release LR-26423)"
+    }
+  ],
+  "primary_sources": [
+    {
+      "label": "SEC complaint (PDF)",
+      "url": "https://www.sec.gov/files/litigation/complaints/2023/comp-pr2023-227.pdf",
+      "type": "complaint"
+    },
+    {
+      "label": "SEC press release 2023-227",
+      "url": "https://www.sec.gov/newsroom/press-releases/2023-227",
+      "type": "release"
+    },
+    {
+      "label": "Litigation Release LR-26423 (dismissal)",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26423",
+      "type": "release"
+    }
+  ],
+  "controls_map": {
+    "nist_csf": [
+      "ID.RA",
+      "PR.IP",
+      "DE.CM",
+      "RC.CO"
+    ],
+    "cis_controls": [
+      "2",
+      "3",
+      "6",
+      "11"
+    ]
+  },
+  "evidence_artifacts": [
+    "Security assessment and vulnerability tracking relative to public statements",
+    "SOX-style controls over cybersecurity disclosures",
+    "Engineering presentations cited in enforcement narrative (privileged review)"
+  ],
+  "engineering_takeaways": [
+    "Internal security assessments that contradict public marketing or filings create securities exposure until processes change.",
+    "Supply chain incidents require coordinated technical, customer, and investor communications under counsel guidance."
+  ]
+}

@@ -1,45 +1,37 @@
 # Security Policy Draft (FTC v. Drizly 2022)
 
-> Draft or update enterprise security policy to support FTC consent order and program maturity.
+> Use this to draft or update an enterprise security policy; defines required behavior and controls in policy language and supports consistency and auditability.
 
 ---
 
 ## Purpose
 
-Policies that support the consent order and address FTC findings: (1) **Information security program policy** — scope, coordinator, risk assessment, safeguards, training, testing, service provider oversight. (2) **Access control and authentication policy** — MFA requirements, password standards, role-based access, offboarding. (3) **Secure development and credential management** — no credentials in source code; repository scanning; change review. (4) **Data retention and minimization policy** — retention schedule, deletion or de-identification of unnecessary personal information. Policies should be written, approved, and available for examiner review.
-
----
+This draft policy converts lessons and obligations from FTC v. Drizly 2022 into enforceable internal requirements, control expectations, and governance responsibilities. It is structured for review by security leadership, legal, and affected business owners before formal adoption.
 
 ## Hallucinated writing examples
 
-**Scenario:** In November 2022, after the FTC accepted the consent order **(time)**, the Security Director **(role)** submits a security policy draft **(type)** to the CISO **(audience)** for approval and rollout to support information security program and retention obligations.
+**Scenario:** In an illustrative period following the FTC October 2022 consent order after the July 2020 Drizly breach **(time)**, the Security Director **(role)** prepares a security policy draft **(type)** for Engineering and security operations staff **(audience)**.
 
 <div class="writing-example-formal">
 
-<p><strong>SECURITY POLICY DRAFT — SUMMARY FOR APPROVAL</strong></p>
+<p><strong>ENTERPRISE SECURITY POLICY — DRAFT</strong></p>
 
 <div class="doc-meta">
-<p><strong>To: </strong>Chief Information Security Officer<br>
-<strong>From: </strong>Security Director<br>
-<strong>Date: </strong>November 22, 2022<br>
-<strong>Re: </strong>Policy Package — Information Security Program, IAM, Secure Development, and Data Retention</p>
+<p><strong>Policy title: </strong>Identity, Secrets, and Data Retention Security Policy<br>
+<strong>Version: </strong>1.0 (Draft)<br>
+<strong>Owner: </strong>Chief Information Security Officer<br>
+<strong>Effective date: </strong>Upon approval<br>
+<strong>Last reviewed: </strong>December 2022<br>
+<strong>Context: </strong>FTC Docket No. 2023185 program implementation requirements</p>
 </div>
 
-<p>This package summarizes the core policies required to operate the information security program and data minimization obligations reflected in the FTC Decision and Order (FTC Docket No. 2023185). The scenario is illustrative; the obligations and topics are grounded in the Order and the FTC’s complaint allegations.</p>
+<p><strong>Purpose and Scope: </strong>This policy establishes enforceable requirements for privileged identity controls, secret-management practices, monitoring, and retention governance aligned to FTC order obligations following the 2020 incident. It applies to all personnel managing source code, cloud administration, and consumer data systems.</p>
 
-<p><strong>1) Information Security Program Policy (Program Governance): </strong><br>
-Defines program scope, designated coordinator, risk assessment cadence, safeguards, training, testing and monitoring, service provider oversight, and documentation and evidence requirements.</p>
+<p><strong>Policy Statement: </strong>The organization shall enforce MFA on privileged paths, prevent credentials in repositories, implement monitoring and retention controls, and govern exceptions under formal approval and review.</p>
 
-<p><strong>2) Access Control and Authentication Policy (IAM): </strong><br>
-Requires MFA for accounts with access to source code or production credentials; defines role-based access, access reviews, account lifecycle controls, and password and session standards where applicable.</p>
+<p><strong>Roles and Responsibilities: </strong>The CISO owns policy governance. Engineering managers implement control standards; security operations maintain monitoring and evidence; compliance/legal review adherence to order obligations.</p>
 
-<p><strong>3) Secure Development and Credential Management Policy (Secrets): </strong><br>
-Prohibits secrets in source code or repositories; requires automated secret scanning, credential rotation workflows, change review for high-risk settings, and incident handling for credential exposure.</p>
-
-<p><strong>4) Data Minimization and Retention Policy (Data Security): </strong><br>
-Implements a retention schedule; requires deletion or de-identification when data is no longer necessary; limits collection and use to what is necessary for specified purposes; defines evidence and auditability.</p>
-
-<p><strong>Requested Approval: </strong>Approve the policy package for publication and enforcement, including policy ownership, effective dates, and quarterly compliance reporting.</p>
+<p><strong>Requirements: </strong>(1) Privileged and sensitive access shall require MFA and periodic recertification. (2) Secrets in source repositories are prohibited; violations require immediate remediation. (3) Logging and retention for designated systems shall meet order and legal requirements. (4) Data retention/deletion controls shall follow approved schedules. (5) Exceptions require risk acceptance with revisit date and quarterly review.</p>
 
 </div>
 

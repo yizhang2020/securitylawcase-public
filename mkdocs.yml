@@ -38,12 +38,12 @@ theme:
 
   palette:
     # Default: Indigo header (good contrast with light brand text)
-    - scheme: default
-      primary: indigo
+    - scheme: default 
+      primary: indigo 
       accent: cyan 
-      toggle:
+      toggle:  
         icon: material/weather-sunny
-        name: Switch to light mode
+        name: Switch to light mode 
 
     # Dark: Blue
     - scheme: slate

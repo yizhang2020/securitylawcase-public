@@ -6,13 +6,11 @@
 
 ## Purpose
 
-Give the CEO, CRO, and leadership a single view of material cyber risk after the July 2019 incident and OCC consent order: top risks tied to root causes, mitigation and risk-register alignment, and explicit asks (acceptance, budget, revisit dates). Supports executive decisions under supervisory and disclosure pressure.
-
----
+This executive summary consolidates the highest-priority security and legal risks arising from Capital One 2019, with impact framing, mitigation status, and near-term decision points for senior leadership. It supports cross-functional alignment among security, legal, finance, and operations on risk treatment and accountability.
 
 ## Hallucinated writing examples
 
-**Scenario:** In September 2020, one month after the OCC Consent Order (August 6, 2020) **(time)**, the Security Director **(role)** is asked by the CEO and CRO **(audience)** to produce a consolidated executive security risk summary **(type)**. The summary must tie directly to the Capital One 2019 incident, the Consent Order’s required improvements, and the risk register so that leadership can make risk-acceptance and resource decisions aligned with regulatory expectations.
+**Scenario:** In an illustrative period following the 2019 Capital One cloud breach and related enforcement and litigation tracks **(time)**, the Security Director, Technology Risk **(role)** prepares a executive security risk summary **(type)** for Chief Executive Officer, Chief Risk Officer **(audience)**.
 
 <div class="writing-example-formal">
 

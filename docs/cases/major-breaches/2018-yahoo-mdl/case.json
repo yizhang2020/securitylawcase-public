@@ -1,0 +1,67 @@
+{
+  "id": "yahoo-mdl-2018",
+  "title": "In re Yahoo! Inc. Customer Data Security Breach Litigation (2018) \u2014 MDL",
+  "year": 2018,
+  "jurisdiction": "US",
+  "forum": "U.S. District Court (N.D. Cal.) \u2014 MDL",
+  "regime": [
+    "Consumer class litigation",
+    "Data breach MDL"
+  ],
+  "technical_focus": [
+    "Account data exposure at scale",
+    "Consumer harm theories in data breach actions",
+    "Class action pleading and certification"
+  ],
+  "legal_issues": [
+    "Article III standing",
+    "Rule 12(b)(6)",
+    "Class certification",
+    "Damages theories"
+  ],
+  "industry": [
+    "Internet services"
+  ],
+  "entities": [
+    "Yahoo! Inc."
+  ],
+  "timeline": [
+    {
+      "date": "2016-09",
+      "event": "Public disclosures of large-scale account data incidents"
+    },
+    {
+      "date": "2018-03",
+      "event": "District court opinion 313 F. Supp. 3d 1113 (motion to dismiss, standing, class issues)"
+    }
+  ],
+  "primary_sources": [
+    {
+      "label": "District court opinion (313 F. Supp. 3d 1113) \u2014 CourtListener",
+      "url": "https://www.courtlistener.com/opinion/7330465/in-re-yahoo-inc-customer-data-sec-breach-litig/",
+      "type": "opinion"
+    }
+  ],
+  "controls_map": {
+    "nist_csf": [
+      "DE.CM",
+      "RS.AN",
+      "PR.AC"
+    ],
+    "cis_controls": [
+      "1",
+      "3",
+      "8",
+      "16"
+    ]
+  },
+  "evidence_artifacts": [
+    "Forensic timelines and breach notification records",
+    "Customer communication logs",
+    "Identity monitoring and mitigation program documentation"
+  ],
+  "engineering_takeaways": [
+    "Breach litigation turns on harm theories and class treatment as much as intrusion mechanics.",
+    "Evidence of detection, scope, and consumer mitigation can matter for dispositive motions."
+  ]
+}
