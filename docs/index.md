@@ -13,6 +13,7 @@ This platform is intended for professionals working at the intersection of secur
 | Link | Description |
 |------|-------------|
 | **[Case Analysis](browse/index.md)** | Enforcement actions and court decisions through a technical and compliance lens. |
+| **[Legal Foundation](legal-foundation.md)** | Doctrine anchors such as privacy rights, standing, speech, and statutory interpretation that inform security-law analysis. |
 | **[Writing Studio (WIP)](studio/index.md)** | How governance documents are structured and produced. Methodology and workflows. |
 | **[Document Types](studio/document-types.md)** | Supported document types: executive, regulatory, legal-technical, policy, and public-communication. |
 | **[Methodology](methodology.md)** | How we structure cases and map to controls and evidence. |

@@ -40,7 +40,7 @@ theme:
     # Default: Indigo header (good contrast with light brand text)
     - scheme: default 
       primary: indigo 
-      accent: cyan 
+      accent: cyan
       toggle:  
         icon: material/weather-sunny
         name: Switch to light mode 
@@ -85,6 +85,7 @@ nav:
 
   - Browse:
       - All Cases: browse/index.md
+      - Legal Foundation: legal-foundation.md
       - Regimes: taxonomy/regimes.md
       - Legal Issues: taxonomy/legal-issues.md
 

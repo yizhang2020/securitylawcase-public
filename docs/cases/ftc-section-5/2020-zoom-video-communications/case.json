@@ -1,0 +1,102 @@
+{
+  "id": "ftc-zoom-2020",
+  "title": "In the Matter of Zoom Video Communications, Inc. (2020) \u2014 Encryption Claims, Mac Update, and FTC Security Order",
+  "year": 2020,
+  "jurisdiction": "US",
+  "forum": "Federal Trade Commission",
+  "regime": [
+    "FTC Section 5 (Deception)",
+    "FTC Section 5 (Unfairness)"
+  ],
+  "technical_focus": [
+    "Encryption claims",
+    "Cloud recording storage",
+    "Software update security",
+    "Security program governance"
+  ],
+  "legal_issues": [
+    "Deception",
+    "Unfairness",
+    "Security representations",
+    "Comprehensive information security program"
+  ],
+  "industry": [
+    "Videoconferencing",
+    "Cloud communications"
+  ],
+  "entities": [
+    "Zoom Video Communications, Inc."
+  ],
+  "timeline": [
+    {
+      "date": "2016",
+      "event": "FTC alleged Zoom began making end-to-end encryption representations"
+    },
+    {
+      "date": "2018-07",
+      "event": "Mac update installed ZoomOpener web server"
+    },
+    {
+      "date": "2020-11-09",
+      "event": "FTC announced complaint and proposed settlement"
+    },
+    {
+      "date": "2021-01-19",
+      "event": "FTC issued final order"
+    },
+    {
+      "date": "2021-02-01",
+      "event": "FTC announced final approval"
+    }
+  ],
+  "primary_sources": [
+    {
+      "label": "FTC case page",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/192-3167-zoom-video-communications-inc-matter",
+      "type": "case_page"
+    },
+    {
+      "label": "FTC Complaint",
+      "url": "https://www.ftc.gov/system/files/documents/cases/1923167zoomcomplaint.pdf",
+      "type": "complaint"
+    },
+    {
+      "label": "FTC Decision and Order",
+      "url": "https://www.ftc.gov/system/files/documents/cases/1923167_c-4731_zoom_final_order.pdf",
+      "type": "order"
+    }
+  ],
+  "controls_map": {
+    "nist_csf": [
+      "ID.RA",
+      "PR.AC",
+      "PR.DS",
+      "PR.IP",
+      "DE.CM",
+      "RS.CO"
+    ],
+    "cis_controls": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "14",
+      "16"
+    ]
+  },
+  "evidence_artifacts": [
+    "Security-claims inventory and approval records",
+    "Cryptographic architecture and key-management review evidence",
+    "Software update security review tickets",
+    "Vulnerability management metrics",
+    "MFA and credential-control reports",
+    "Cloud-recording encryption and retention test records",
+    "Independent assessment evidence package"
+  ],
+  "engineering_takeaways": [
+    "Security claims must be reviewed against implemented architecture.",
+    "Software updates must not bypass or weaken third-party security safeguards.",
+    "FTC order compliance requires durable evidence, not one-time policy statements."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "national-security-tiktok-garland-2025",
+  "title": "TikTok Inc. v. Garland (2025) - Foreign-Adversary Platform Control, Data Security, and First Amendment Review",
+  "year": 2025,
+  "jurisdiction": "US",
+  "forum": "U.S. Supreme Court",
+  "regime": [
+    "National Security",
+    "First Amendment",
+    "Platform Regulation"
+  ],
+  "technical_focus": [
+    "Data collection",
+    "Recommendation algorithms",
+    "Foreign-adversary control",
+    "Platform governance"
+  ],
+  "legal_issues": [
+    "First Amendment scrutiny",
+    "National security",
+    "Data governance",
+    "Qualified divestiture"
+  ],
+  "industry": [
+    "Social media",
+    "Platform technology"
+  ],
+  "entities": [
+    "TikTok Inc.",
+    "ByteDance Ltd.",
+    "United States"
+  ],
+  "timeline": [
+    {
+      "date": "2024",
+      "event": "Protecting Americans from Foreign Adversary Controlled Applications Act enacted"
+    },
+    {
+      "date": "2024-12",
+      "event": "Supreme Court granted expedited review"
+    },
+    {
+      "date": "2025-01-10",
+      "event": "Supreme Court oral argument"
+    },
+    {
+      "date": "2025-01-17",
+      "event": "Supreme Court affirmed D.C. Circuit"
+    }
+  ],
+  "primary_sources": [
+    {
+      "label": "Supreme Court opinion",
+      "url": "https://www.supremecourt.gov/opinions/24pdf/24-656_new_3dq3.pdf",
+      "type": "opinion"
+    },
+    {
+      "label": "Justia Supreme Court case page",
+      "url": "https://supreme.justia.com/cases/federal/us/604/24-656/",
+      "type": "secondary_reference"
+    }
+  ],
+  "controls_map": {
+    "nist_csf": [
+      "GV.OC",
+      "GV.RM",
+      "ID.AM",
+      "ID.RA",
+      "PR.DS",
+      "PR.AA",
+      "DE.CM"
+    ],
+    "cis_controls": [
+      "3",
+      "5",
+      "6",
+      "8",
+      "12",
+      "15",
+      "16"
+    ]
+  },
+  "evidence_artifacts": [
+    "Sensitive data inventory and data-flow map",
+    "Cross-border access and transfer control evidence",
+    "Recommendation algorithm ownership and change-control records",
+    "Source-code provenance and dependency map",
+    "Foreign-control risk assessment",
+    "Divestiture or trusted-operator control evidence",
+    "Board and executive oversight minutes"
+  ],
+  "engineering_takeaways": [
+    "At platform scale, data governance can become a national-security issue.",
+    "Algorithm ownership and operational control are security facts, not only business facts.",
+    "Contractual mitigations need technical enforcement and evidence to be credible."
+  ]
+}
